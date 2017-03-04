@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B9409C51E6A5CEC001DE331 /* FruokIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9409BB1E6A5CEC001DE331 /* FruokIO.framework */; };
+		2B9409CA1E6A5CEC001DE331 /* FruokIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9409C91E6A5CEC001DE331 /* FruokIOTests.swift */; };
+		2B9409CC1E6A5CEC001DE331 /* FruokIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9409BE1E6A5CEC001DE331 /* FruokIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B9409C61E6A5CEC001DE331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B9409B21E6A5CEC001DE331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B9409BA1E6A5CEC001DE331;
+			remoteInfo = FruokIO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B9409BB1E6A5CEC001DE331 /* FruokIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FruokIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9409BE1E6A5CEC001DE331 /* FruokIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruokIO.h; sourceTree = "<group>"; };
+		2B9409BF1E6A5CEC001DE331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9409C41E6A5CEC001DE331 /* FruokIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruokIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9409C91E6A5CEC001DE331 /* FruokIOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruokIOTests.swift; sourceTree = "<group>"; };
+		2B9409CB1E6A5CEC001DE331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B9409B71E6A5CEC001DE331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9409C11E6A5CEC001DE331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9409C51E6A5CEC001DE331 /* FruokIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B9409B11E6A5CEC001DE331 = {
+			isa = PBXGroup;
+			children = (
+				2B9409BD1E6A5CEC001DE331 /* FruokIO */,
+				2B9409C81E6A5CEC001DE331 /* FruokIOTests */,
+				2B9409BC1E6A5CEC001DE331 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B9409BC1E6A5CEC001DE331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B9409BB1E6A5CEC001DE331 /* FruokIO.framework */,
+				2B9409C41E6A5CEC001DE331 /* FruokIOTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B9409BD1E6A5CEC001DE331 /* FruokIO */ = {
+			isa = PBXGroup;
+			children = (
+				2B9409BE1E6A5CEC001DE331 /* FruokIO.h */,
+				2B9409BF1E6A5CEC001DE331 /* Info.plist */,
+			);
+			path = FruokIO;
+			sourceTree = "<group>";
+		};
+		2B9409C81E6A5CEC001DE331 /* FruokIOTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B9409C91E6A5CEC001DE331 /* FruokIOTests.swift */,
+				2B9409CB1E6A5CEC001DE331 /* Info.plist */,
+			);
+			path = FruokIOTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B9409B81E6A5CEC001DE331 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9409CC1E6A5CEC001DE331 /* FruokIO.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B9409BA1E6A5CEC001DE331 /* FruokIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9409CF1E6A5CEC001DE331 /* Build configuration list for PBXNativeTarget "FruokIO" */;
+			buildPhases = (
+				2B9409B61E6A5CEC001DE331 /* Sources */,
+				2B9409B71E6A5CEC001DE331 /* Frameworks */,
+				2B9409B81E6A5CEC001DE331 /* Headers */,
+				2B9409B91E6A5CEC001DE331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FruokIO;
+			productName = FruokIO;
+			productReference = 2B9409BB1E6A5CEC001DE331 /* FruokIO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B9409C31E6A5CEC001DE331 /* FruokIOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9409D21E6A5CEC001DE331 /* Build configuration list for PBXNativeTarget "FruokIOTests" */;
+			buildPhases = (
+				2B9409C01E6A5CEC001DE331 /* Sources */,
+				2B9409C11E6A5CEC001DE331 /* Frameworks */,
+				2B9409C21E6A5CEC001DE331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B9409C71E6A5CEC001DE331 /* PBXTargetDependency */,
+			);
+			name = FruokIOTests;
+			productName = FruokIOTests;
+			productReference = 2B9409C41E6A5CEC001DE331 /* FruokIOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B9409B21E6A5CEC001DE331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sergio Daniel L. García";
+				TargetAttributes = {
+					2B9409BA1E6A5CEC001DE331 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AQUE4FE98B;
+						ProvisioningStyle = Automatic;
+					};
+					2B9409C31E6A5CEC001DE331 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AQUE4FE98B;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2B9409B51E6A5CEC001DE331 /* Build configuration list for PBXProject "FruokIO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B9409B11E6A5CEC001DE331;
+			productRefGroup = 2B9409BC1E6A5CEC001DE331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B9409BA1E6A5CEC001DE331 /* FruokIO */,
+				2B9409C31E6A5CEC001DE331 /* FruokIOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B9409B91E6A5CEC001DE331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9409C21E6A5CEC001DE331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B9409B61E6A5CEC001DE331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9409C01E6A5CEC001DE331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9409CA1E6A5CEC001DE331 /* FruokIOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B9409C71E6A5CEC001DE331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B9409BA1E6A5CEC001DE331 /* FruokIO */;
+			targetProxy = 2B9409C61E6A5CEC001DE331 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9409CD1E6A5CEC001DE331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9409CE1E6A5CEC001DE331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B9409D01E6A5CEC001DE331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FruokIO/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.FruokIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B9409D11E6A5CEC001DE331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FruokIO/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.FruokIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2B9409D31E6A5CEC001DE331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				INFOPLIST_FILE = FruokIOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.FruokIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B9409D41E6A5CEC001DE331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				INFOPLIST_FILE = FruokIOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.FruokIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B9409B51E6A5CEC001DE331 /* Build configuration list for PBXProject "FruokIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9409CD1E6A5CEC001DE331 /* Debug */,
+				2B9409CE1E6A5CEC001DE331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9409CF1E6A5CEC001DE331 /* Build configuration list for PBXNativeTarget "FruokIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9409D01E6A5CEC001DE331 /* Debug */,
+				2B9409D11E6A5CEC001DE331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B9409D21E6A5CEC001DE331 /* Build configuration list for PBXNativeTarget "FruokIOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9409D31E6A5CEC001DE331 /* Debug */,
+				2B9409D41E6A5CEC001DE331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B9409B21E6A5CEC001DE331 /* Project object */;
+}
