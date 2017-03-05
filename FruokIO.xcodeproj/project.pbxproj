@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22399E02ECB1B1108EFF12F0 /* Pods_FruokIOiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B3077841063DD1FCDF1FD2 /* Pods_FruokIOiOSTests.framework */; };
 		2B29C21D1E6B8E2B00E7C365 /* FruokIOmacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B29C2141E6B8E2B00E7C365 /* FruokIOmacOS.framework */; };
 		2B29C2221E6B8E2B00E7C365 /* FruokIO_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B29C2211E6B8E2B00E7C365 /* FruokIO_macOSTests.swift */; };
 		2B29C2241E6B8E2B00E7C365 /* FruokIO macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B29C2161E6B8E2B00E7C365 /* FruokIO macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B9409C51E6A5CEC001DE331 /* FruokIOiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9409BB1E6A5CEC001DE331 /* FruokIOiOS.framework */; };
 		2B9409CA1E6A5CEC001DE331 /* FruokIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9409C91E6A5CEC001DE331 /* FruokIOTests.swift */; };
 		2B9409CC1E6A5CEC001DE331 /* FruokIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9409BE1E6A5CEC001DE331 /* FruokIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86674F889DB7700EE9BC8536 /* Pods_FruokIOmacOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374AC16448219D876021ED02 /* Pods_FruokIOmacOSTests.framework */; };
+		9D5E86222FDE69A71E7A046E /* Pods_FruokIOiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2ABE3C790411A7D96AEBA13 /* Pods_FruokIOiOS.framework */; };
+		FCA2E5E09B0FCD1026171782 /* Pods_FruokIOmacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F58D63FA20D64A0C6A2450C /* Pods_FruokIOmacOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08540B6F7546E4C39A928704 /* Pods-FruokIOiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruokIOiOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FruokIOiOSTests/Pods-FruokIOiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28A3AED03C5F589F16D61F13 /* Pods-FruokIOiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruokIOiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FruokIOiOS/Pods-FruokIOiOS.release.xcconfig"; sourceTree = "<group>"; };
 		2B29C2141E6B8E2B00E7C365 /* FruokIOmacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FruokIOmacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B29C2161E6B8E2B00E7C365 /* FruokIO macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FruokIO macOS.h"; sourceTree = "<group>"; };
 		2B29C2171E6B8E2B00E7C365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +51,16 @@
 		2B9409C41E6A5CEC001DE331 /* FruokIOiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruokIOiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9409C91E6A5CEC001DE331 /* FruokIOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruokIOTests.swift; sourceTree = "<group>"; };
 		2B9409CB1E6A5CEC001DE331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		374AC16448219D876021ED02 /* Pods_FruokIOmacOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruokIOmacOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F58D63FA20D64A0C6A2450C /* Pods_FruokIOmacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruokIOmacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52491A233C885BD80A808B0B /* Pods-FruokIOmacOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruokIOmacOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FruokIOmacOSTests/Pods-FruokIOmacOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76F02FE8C95D32879E1B2F71 /* Pods-FruokIOmacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruokIOmacOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FruokIOmacOS/Pods-FruokIOmacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		94072D8AB88B8D7B2FCE806B /* Pods-FruokIOmacOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruokIOmacOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FruokIOmacOSTests/Pods-FruokIOmacOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		96B3077841063DD1FCDF1FD2 /* Pods_FruokIOiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruokIOiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E27BB57D60E5B8A3AD9656 /* Pods-FruokIOiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruokIOiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FruokIOiOS/Pods-FruokIOiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CA1EB50681666CFBE3395DE3 /* Pods-FruokIOmacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruokIOmacOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FruokIOmacOS/Pods-FruokIOmacOS.release.xcconfig"; sourceTree = "<group>"; };
+		DFDD51EEFB46384516E39E03 /* Pods-FruokIOiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruokIOiOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FruokIOiOSTests/Pods-FruokIOiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2ABE3C790411A7D96AEBA13 /* Pods_FruokIOiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruokIOiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA2E5E09B0FCD1026171782 /* Pods_FruokIOmacOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B29C21D1E6B8E2B00E7C365 /* FruokIOmacOS.framework in Frameworks */,
+				86674F889DB7700EE9BC8536 /* Pods_FruokIOmacOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5E86222FDE69A71E7A046E /* Pods_FruokIOiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +94,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B9409C51E6A5CEC001DE331 /* FruokIOiOS.framework in Frameworks */,
+				22399E02ECB1B1108EFF12F0 /* Pods_FruokIOiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +128,8 @@
 				2B9409C81E6A5CEC001DE331 /* FruokIO iOS Tests */,
 				2B29C2201E6B8E2B00E7C365 /* FruokIO macOS Tests */,
 				2B9409BC1E6A5CEC001DE331 /* Products */,
+				6FBAA4D67FA1E472B9DB4B86 /* Pods */,
+				BCD93403EB035338F6BE7E7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +164,32 @@
 			path = FruokIOTests;
 			sourceTree = "<group>";
 		};
+		6FBAA4D67FA1E472B9DB4B86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2E27BB57D60E5B8A3AD9656 /* Pods-FruokIOiOS.debug.xcconfig */,
+				28A3AED03C5F589F16D61F13 /* Pods-FruokIOiOS.release.xcconfig */,
+				08540B6F7546E4C39A928704 /* Pods-FruokIOiOSTests.debug.xcconfig */,
+				DFDD51EEFB46384516E39E03 /* Pods-FruokIOiOSTests.release.xcconfig */,
+				76F02FE8C95D32879E1B2F71 /* Pods-FruokIOmacOS.debug.xcconfig */,
+				CA1EB50681666CFBE3395DE3 /* Pods-FruokIOmacOS.release.xcconfig */,
+				52491A233C885BD80A808B0B /* Pods-FruokIOmacOSTests.debug.xcconfig */,
+				94072D8AB88B8D7B2FCE806B /* Pods-FruokIOmacOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCD93403EB035338F6BE7E7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2ABE3C790411A7D96AEBA13 /* Pods_FruokIOiOS.framework */,
+				96B3077841063DD1FCDF1FD2 /* Pods_FruokIOiOSTests.framework */,
+				3F58D63FA20D64A0C6A2450C /* Pods_FruokIOmacOS.framework */,
+				374AC16448219D876021ED02 /* Pods_FruokIOmacOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -168,10 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B29C2251E6B8E2B00E7C365 /* Build configuration list for PBXNativeTarget "FruokIOmacOS" */;
 			buildPhases = (
+				B30872C488F497F77CFEB99E /* [CP] Check Pods Manifest.lock */,
 				2B29C20F1E6B8E2B00E7C365 /* Sources */,
 				2B29C2101E6B8E2B00E7C365 /* Frameworks */,
 				2B29C2111E6B8E2B00E7C365 /* Headers */,
 				2B29C2121E6B8E2B00E7C365 /* Resources */,
+				2394D5FADBD0CB118F3907A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B29C2281E6B8E2B00E7C365 /* Build configuration list for PBXNativeTarget "FruokIOmacOSTests" */;
 			buildPhases = (
+				3021B9A7D86B46DE8FC4B1E8 /* [CP] Check Pods Manifest.lock */,
 				2B29C2181E6B8E2B00E7C365 /* Sources */,
 				2B29C2191E6B8E2B00E7C365 /* Frameworks */,
 				2B29C21A1E6B8E2B00E7C365 /* Resources */,
+				C47F141D89B12FACA706F8EE /* [CP] Embed Pods Frameworks */,
+				ECAE3C95AB5E367C24C5B001 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,10 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B9409CF1E6A5CEC001DE331 /* Build configuration list for PBXNativeTarget "FruokIOiOS" */;
 			buildPhases = (
+				47E47E89BC95B2D521A50FD9 /* [CP] Check Pods Manifest.lock */,
 				2B9409B61E6A5CEC001DE331 /* Sources */,
 				2B9409B71E6A5CEC001DE331 /* Frameworks */,
 				2B9409B81E6A5CEC001DE331 /* Headers */,
 				2B9409B91E6A5CEC001DE331 /* Resources */,
+				56A2C05F4642D24F0CB44F5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,9 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B9409D21E6A5CEC001DE331 /* Build configuration list for PBXNativeTarget "FruokIOiOSTests" */;
 			buildPhases = (
+				1D8774DFD8C88E5F38CDD52A /* [CP] Check Pods Manifest.lock */,
 				2B9409C01E6A5CEC001DE331 /* Sources */,
 				2B9409C11E6A5CEC001DE331 /* Frameworks */,
 				2B9409C21E6A5CEC001DE331 /* Resources */,
+				D526983C1B64A0EB94F03659 /* [CP] Embed Pods Frameworks */,
+				B70CDEF486C32DB9F9951052 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,6 +377,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D8774DFD8C88E5F38CDD52A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2394D5FADBD0CB118F3907A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FruokIOmacOS/Pods-FruokIOmacOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3021B9A7D86B46DE8FC4B1E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47E47E89BC95B2D521A50FD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56A2C05F4642D24F0CB44F5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FruokIOiOS/Pods-FruokIOiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B30872C488F497F77CFEB99E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B70CDEF486C32DB9F9951052 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FruokIOiOSTests/Pods-FruokIOiOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C47F141D89B12FACA706F8EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FruokIOmacOSTests/Pods-FruokIOmacOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D526983C1B64A0EB94F03659 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FruokIOiOSTests/Pods-FruokIOiOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAE3C95AB5E367C24C5B001 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FruokIOmacOSTests/Pods-FruokIOmacOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2B29C20F1E6B8E2B00E7C365 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -368,6 +579,7 @@
 /* Begin XCBuildConfiguration section */
 		2B29C2261E6B8E2B00E7C365 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F02FE8C95D32879E1B2F71 /* Pods-FruokIOmacOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -391,6 +603,7 @@
 		};
 		2B29C2271E6B8E2B00E7C365 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1EB50681666CFBE3395DE3 /* Pods-FruokIOmacOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -414,6 +627,7 @@
 		};
 		2B29C2291E6B8E2B00E7C365 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52491A233C885BD80A808B0B /* Pods-FruokIOmacOSTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -430,6 +644,7 @@
 		};
 		2B29C22A1E6B8E2B00E7C365 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94072D8AB88B8D7B2FCE806B /* Pods-FruokIOmacOSTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -545,6 +760,7 @@
 		};
 		2B9409D01E6A5CEC001DE331 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2E27BB57D60E5B8A3AD9656 /* Pods-FruokIOiOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -564,6 +780,7 @@
 		};
 		2B9409D11E6A5CEC001DE331 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A3AED03C5F589F16D61F13 /* Pods-FruokIOiOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -583,6 +800,7 @@
 		};
 		2B9409D31E6A5CEC001DE331 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08540B6F7546E4C39A928704 /* Pods-FruokIOiOSTests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = AQUE4FE98B;
 				INFOPLIST_FILE = FruokIOTests/Info.plist;
@@ -595,6 +813,7 @@
 		};
 		2B9409D41E6A5CEC001DE331 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFDD51EEFB46384516E39E03 /* Pods-FruokIOiOSTests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = AQUE4FE98B;
 				INFOPLIST_FILE = FruokIOTests/Info.plist;

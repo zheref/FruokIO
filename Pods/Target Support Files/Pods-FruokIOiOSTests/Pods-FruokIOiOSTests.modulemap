@@ -1,0 +1,6 @@
+framework module Pods_FruokIOiOSTests {
+  umbrella header "Pods-FruokIOiOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_FruokIOiOS {
+  umbrella header "Pods-FruokIOiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
