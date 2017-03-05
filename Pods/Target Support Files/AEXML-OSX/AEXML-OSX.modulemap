@@ -1,0 +1,6 @@
+framework module AEXML {
+  umbrella header "AEXML-OSX-umbrella.h"
+
+  export *
+  module * { export * }
+}

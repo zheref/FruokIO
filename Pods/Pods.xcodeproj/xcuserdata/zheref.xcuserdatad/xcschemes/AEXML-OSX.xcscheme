@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9A9E50CE7546F212AB37EFAA19054772"
-               BuildableName = "Pods_FruokIOiOSTests.framework"
-               BlueprintName = "Pods-FruokIOiOSTests"
+               BlueprintIdentifier = "6CCB393CAEBAB83636087A960BB3DC9D"
+               BuildableName = "AEXML.framework"
+               BlueprintName = "AEXML-OSX"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9A9E50CE7546F212AB37EFAA19054772"
-            BuildableName = "Pods_FruokIOiOSTests.framework"
-            BlueprintName = "Pods-FruokIOiOSTests"
+            BlueprintIdentifier = "6CCB393CAEBAB83636087A960BB3DC9D"
+            BuildableName = "AEXML.framework"
+            BlueprintName = "AEXML-OSX"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
