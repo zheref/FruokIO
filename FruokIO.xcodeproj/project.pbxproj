@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B9409C51E6A5CEC001DE331 /* FruokIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9409BB1E6A5CEC001DE331 /* FruokIO.framework */; };
+		2B29C21D1E6B8E2B00E7C365 /* FruokIOmacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B29C2141E6B8E2B00E7C365 /* FruokIOmacOS.framework */; };
+		2B29C2221E6B8E2B00E7C365 /* FruokIO_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B29C2211E6B8E2B00E7C365 /* FruokIO_macOSTests.swift */; };
+		2B29C2241E6B8E2B00E7C365 /* FruokIO macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B29C2161E6B8E2B00E7C365 /* FruokIO macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9409C51E6A5CEC001DE331 /* FruokIOiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9409BB1E6A5CEC001DE331 /* FruokIOiOS.framework */; };
 		2B9409CA1E6A5CEC001DE331 /* FruokIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9409C91E6A5CEC001DE331 /* FruokIOTests.swift */; };
 		2B9409CC1E6A5CEC001DE331 /* FruokIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9409BE1E6A5CEC001DE331 /* FruokIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B9409F41E6A5ECC001DE331 /* FruokIO macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9409EB1E6A5ECC001DE331 /* FruokIO macOS.framework */; };
-		2B9409F91E6A5ECC001DE331 /* FruokIO_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9409F81E6A5ECC001DE331 /* FruokIO_macOSTests.swift */; };
-		2B9409FB1E6A5ECC001DE331 /* FruokIO macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9409ED1E6A5ECC001DE331 /* FruokIO macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2B29C21E1E6B8E2B00E7C365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B9409B21E6A5CEC001DE331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B29C2131E6B8E2B00E7C365;
+			remoteInfo = "FruokIO macOS";
+		};
 		2B9409C61E6A5CEC001DE331 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2B9409B21E6A5CEC001DE331 /* Project object */;
@@ -23,31 +30,39 @@
 			remoteGlobalIDString = 2B9409BA1E6A5CEC001DE331;
 			remoteInfo = FruokIO;
 		};
-		2B9409F51E6A5ECC001DE331 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2B9409B21E6A5CEC001DE331 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B9409EA1E6A5ECC001DE331;
-			remoteInfo = "FruokIO macOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B9409BB1E6A5CEC001DE331 /* FruokIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FruokIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B29C2141E6B8E2B00E7C365 /* FruokIOmacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FruokIOmacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B29C2161E6B8E2B00E7C365 /* FruokIO macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FruokIO macOS.h"; sourceTree = "<group>"; };
+		2B29C2171E6B8E2B00E7C365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B29C21C1E6B8E2B00E7C365 /* FruokIOmacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruokIOmacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B29C2211E6B8E2B00E7C365 /* FruokIO_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruokIO_macOSTests.swift; sourceTree = "<group>"; };
+		2B29C2231E6B8E2B00E7C365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9409BB1E6A5CEC001DE331 /* FruokIOiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FruokIOiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9409BE1E6A5CEC001DE331 /* FruokIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruokIO.h; sourceTree = "<group>"; };
 		2B9409BF1E6A5CEC001DE331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B9409C41E6A5CEC001DE331 /* FruokIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruokIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9409C41E6A5CEC001DE331 /* FruokIOiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruokIOiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9409C91E6A5CEC001DE331 /* FruokIOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruokIOTests.swift; sourceTree = "<group>"; };
 		2B9409CB1E6A5CEC001DE331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B9409EB1E6A5ECC001DE331 /* FruokIO macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "FruokIO macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B9409ED1E6A5ECC001DE331 /* FruokIO macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FruokIO macOS.h"; sourceTree = "<group>"; };
-		2B9409EE1E6A5ECC001DE331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B9409F31E6A5ECC001DE331 /* FruokIO macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FruokIO macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B9409F81E6A5ECC001DE331 /* FruokIO_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruokIO_macOSTests.swift; sourceTree = "<group>"; };
-		2B9409FA1E6A5ECC001DE331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B29C2101E6B8E2B00E7C365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B29C2191E6B8E2B00E7C365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B29C21D1E6B8E2B00E7C365 /* FruokIOmacOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B9409B71E6A5CEC001DE331 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,35 +74,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B9409C51E6A5CEC001DE331 /* FruokIO.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B9409E71E6A5ECC001DE331 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B9409F01E6A5ECC001DE331 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B9409F41E6A5ECC001DE331 /* FruokIO macOS.framework in Frameworks */,
+				2B9409C51E6A5CEC001DE331 /* FruokIOiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B29C2151E6B8E2B00E7C365 /* FruokIO macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B29C2161E6B8E2B00E7C365 /* FruokIO macOS.h */,
+				2B29C2171E6B8E2B00E7C365 /* Info.plist */,
+			);
+			path = "FruokIO macOS";
+			sourceTree = "<group>";
+		};
+		2B29C2201E6B8E2B00E7C365 /* FruokIO macOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2B29C2211E6B8E2B00E7C365 /* FruokIO_macOSTests.swift */,
+				2B29C2231E6B8E2B00E7C365 /* Info.plist */,
+			);
+			name = "FruokIO macOS Tests";
+			path = "FruokIO macOSTests";
+			sourceTree = "<group>";
+		};
 		2B9409B11E6A5CEC001DE331 = {
 			isa = PBXGroup;
 			children = (
-				2B9409BD1E6A5CEC001DE331 /* FruokIO */,
-				2B9409EC1E6A5ECC001DE331 /* FruokIO macOS */,
-				2B9409C81E6A5CEC001DE331 /* FruokIO Tests */,
-				2B9409F71E6A5ECC001DE331 /* FruokIO macOS Tests */,
+				2B9409BD1E6A5CEC001DE331 /* FruokIO iOS */,
+				2B29C2151E6B8E2B00E7C365 /* FruokIO macOS */,
+				2B9409C81E6A5CEC001DE331 /* FruokIO iOS Tests */,
+				2B29C2201E6B8E2B00E7C365 /* FruokIO macOS Tests */,
 				2B9409BC1E6A5CEC001DE331 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,55 +114,45 @@
 		2B9409BC1E6A5CEC001DE331 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B9409BB1E6A5CEC001DE331 /* FruokIO.framework */,
-				2B9409C41E6A5CEC001DE331 /* FruokIOTests.xctest */,
-				2B9409EB1E6A5ECC001DE331 /* FruokIO macOS.framework */,
-				2B9409F31E6A5ECC001DE331 /* FruokIO macOSTests.xctest */,
+				2B9409BB1E6A5CEC001DE331 /* FruokIOiOS.framework */,
+				2B9409C41E6A5CEC001DE331 /* FruokIOiOSTests.xctest */,
+				2B29C2141E6B8E2B00E7C365 /* FruokIOmacOS.framework */,
+				2B29C21C1E6B8E2B00E7C365 /* FruokIOmacOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B9409BD1E6A5CEC001DE331 /* FruokIO */ = {
+		2B9409BD1E6A5CEC001DE331 /* FruokIO iOS */ = {
 			isa = PBXGroup;
 			children = (
 				2B9409BE1E6A5CEC001DE331 /* FruokIO.h */,
 				2B9409BF1E6A5CEC001DE331 /* Info.plist */,
 			);
+			name = "FruokIO iOS";
 			path = FruokIO;
 			sourceTree = "<group>";
 		};
-		2B9409C81E6A5CEC001DE331 /* FruokIO Tests */ = {
+		2B9409C81E6A5CEC001DE331 /* FruokIO iOS Tests */ = {
 			isa = PBXGroup;
 			children = (
 				2B9409C91E6A5CEC001DE331 /* FruokIOTests.swift */,
 				2B9409CB1E6A5CEC001DE331 /* Info.plist */,
 			);
-			name = "FruokIO Tests";
+			name = "FruokIO iOS Tests";
 			path = FruokIOTests;
-			sourceTree = "<group>";
-		};
-		2B9409EC1E6A5ECC001DE331 /* FruokIO macOS */ = {
-			isa = PBXGroup;
-			children = (
-				2B9409ED1E6A5ECC001DE331 /* FruokIO macOS.h */,
-				2B9409EE1E6A5ECC001DE331 /* Info.plist */,
-			);
-			path = "FruokIO macOS";
-			sourceTree = "<group>";
-		};
-		2B9409F71E6A5ECC001DE331 /* FruokIO macOS Tests */ = {
-			isa = PBXGroup;
-			children = (
-				2B9409F81E6A5ECC001DE331 /* FruokIO_macOSTests.swift */,
-				2B9409FA1E6A5ECC001DE331 /* Info.plist */,
-			);
-			name = "FruokIO macOS Tests";
-			path = "FruokIO macOSTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2B29C2111E6B8E2B00E7C365 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B29C2241E6B8E2B00E7C365 /* FruokIO macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B9409B81E6A5CEC001DE331 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -152,20 +161,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B9409E81E6A5ECC001DE331 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B9409FB1E6A5ECC001DE331 /* FruokIO macOS.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2B9409BA1E6A5CEC001DE331 /* FruokIO */ = {
+		2B29C2131E6B8E2B00E7C365 /* FruokIOmacOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B9409CF1E6A5CEC001DE331 /* Build configuration list for PBXNativeTarget "FruokIO" */;
+			buildConfigurationList = 2B29C2251E6B8E2B00E7C365 /* Build configuration list for PBXNativeTarget "FruokIOmacOS" */;
+			buildPhases = (
+				2B29C20F1E6B8E2B00E7C365 /* Sources */,
+				2B29C2101E6B8E2B00E7C365 /* Frameworks */,
+				2B29C2111E6B8E2B00E7C365 /* Headers */,
+				2B29C2121E6B8E2B00E7C365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FruokIOmacOS;
+			productName = "FruokIO macOS";
+			productReference = 2B29C2141E6B8E2B00E7C365 /* FruokIOmacOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B29C21B1E6B8E2B00E7C365 /* FruokIOmacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B29C2281E6B8E2B00E7C365 /* Build configuration list for PBXNativeTarget "FruokIOmacOSTests" */;
+			buildPhases = (
+				2B29C2181E6B8E2B00E7C365 /* Sources */,
+				2B29C2191E6B8E2B00E7C365 /* Frameworks */,
+				2B29C21A1E6B8E2B00E7C365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B29C21F1E6B8E2B00E7C365 /* PBXTargetDependency */,
+			);
+			name = FruokIOmacOSTests;
+			productName = "FruokIO macOSTests";
+			productReference = 2B29C21C1E6B8E2B00E7C365 /* FruokIOmacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B9409BA1E6A5CEC001DE331 /* FruokIOiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9409CF1E6A5CEC001DE331 /* Build configuration list for PBXNativeTarget "FruokIOiOS" */;
 			buildPhases = (
 				2B9409B61E6A5CEC001DE331 /* Sources */,
 				2B9409B71E6A5CEC001DE331 /* Frameworks */,
@@ -176,14 +213,14 @@
 			);
 			dependencies = (
 			);
-			name = FruokIO;
+			name = FruokIOiOS;
 			productName = FruokIO;
-			productReference = 2B9409BB1E6A5CEC001DE331 /* FruokIO.framework */;
+			productReference = 2B9409BB1E6A5CEC001DE331 /* FruokIOiOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2B9409C31E6A5CEC001DE331 /* FruokIOTests */ = {
+		2B9409C31E6A5CEC001DE331 /* FruokIOiOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B9409D21E6A5CEC001DE331 /* Build configuration list for PBXNativeTarget "FruokIOTests" */;
+			buildConfigurationList = 2B9409D21E6A5CEC001DE331 /* Build configuration list for PBXNativeTarget "FruokIOiOSTests" */;
 			buildPhases = (
 				2B9409C01E6A5CEC001DE331 /* Sources */,
 				2B9409C11E6A5CEC001DE331 /* Frameworks */,
@@ -194,45 +231,9 @@
 			dependencies = (
 				2B9409C71E6A5CEC001DE331 /* PBXTargetDependency */,
 			);
-			name = FruokIOTests;
+			name = FruokIOiOSTests;
 			productName = FruokIOTests;
-			productReference = 2B9409C41E6A5CEC001DE331 /* FruokIOTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2B9409EA1E6A5ECC001DE331 /* FruokIO macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B9409FC1E6A5ECC001DE331 /* Build configuration list for PBXNativeTarget "FruokIO macOS" */;
-			buildPhases = (
-				2B9409E61E6A5ECC001DE331 /* Sources */,
-				2B9409E71E6A5ECC001DE331 /* Frameworks */,
-				2B9409E81E6A5ECC001DE331 /* Headers */,
-				2B9409E91E6A5ECC001DE331 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FruokIO macOS";
-			productName = "FruokIO macOS";
-			productReference = 2B9409EB1E6A5ECC001DE331 /* FruokIO macOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		2B9409F21E6A5ECC001DE331 /* FruokIO macOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B9409FF1E6A5ECC001DE331 /* Build configuration list for PBXNativeTarget "FruokIO macOSTests" */;
-			buildPhases = (
-				2B9409EF1E6A5ECC001DE331 /* Sources */,
-				2B9409F01E6A5ECC001DE331 /* Frameworks */,
-				2B9409F11E6A5ECC001DE331 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2B9409F61E6A5ECC001DE331 /* PBXTargetDependency */,
-			);
-			name = "FruokIO macOSTests";
-			productName = "FruokIO macOSTests";
-			productReference = 2B9409F31E6A5ECC001DE331 /* FruokIO macOSTests.xctest */;
+			productReference = 2B9409C41E6A5CEC001DE331 /* FruokIOiOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -245,22 +246,22 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Sergio Daniel L. García";
 				TargetAttributes = {
+					2B29C2131E6B8E2B00E7C365 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AQUE4FE98B;
+						ProvisioningStyle = Automatic;
+					};
+					2B29C21B1E6B8E2B00E7C365 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AQUE4FE98B;
+						ProvisioningStyle = Automatic;
+					};
 					2B9409BA1E6A5CEC001DE331 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = AQUE4FE98B;
 						ProvisioningStyle = Automatic;
 					};
 					2B9409C31E6A5CEC001DE331 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = AQUE4FE98B;
-						ProvisioningStyle = Automatic;
-					};
-					2B9409EA1E6A5ECC001DE331 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = AQUE4FE98B;
-						ProvisioningStyle = Automatic;
-					};
-					2B9409F21E6A5ECC001DE331 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = AQUE4FE98B;
 						ProvisioningStyle = Automatic;
@@ -279,15 +280,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B9409BA1E6A5CEC001DE331 /* FruokIO */,
-				2B9409C31E6A5CEC001DE331 /* FruokIOTests */,
-				2B9409EA1E6A5ECC001DE331 /* FruokIO macOS */,
-				2B9409F21E6A5ECC001DE331 /* FruokIO macOSTests */,
+				2B9409BA1E6A5CEC001DE331 /* FruokIOiOS */,
+				2B9409C31E6A5CEC001DE331 /* FruokIOiOSTests */,
+				2B29C2131E6B8E2B00E7C365 /* FruokIOmacOS */,
+				2B29C21B1E6B8E2B00E7C365 /* FruokIOmacOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B29C2121E6B8E2B00E7C365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B29C21A1E6B8E2B00E7C365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B9409B91E6A5CEC001DE331 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,23 +317,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B9409E91E6A5ECC001DE331 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B9409F11E6A5ECC001DE331 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2B29C20F1E6B8E2B00E7C365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B29C2181E6B8E2B00E7C365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B29C2221E6B8E2B00E7C365 /* FruokIO_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B9409B61E6A5CEC001DE331 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,37 +350,100 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B9409E61E6A5ECC001DE331 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B9409EF1E6A5ECC001DE331 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B9409F91E6A5ECC001DE331 /* FruokIO_macOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2B29C21F1E6B8E2B00E7C365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B29C2131E6B8E2B00E7C365 /* FruokIOmacOS */;
+			targetProxy = 2B29C21E1E6B8E2B00E7C365 /* PBXContainerItemProxy */;
+		};
 		2B9409C71E6A5CEC001DE331 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2B9409BA1E6A5CEC001DE331 /* FruokIO */;
+			target = 2B9409BA1E6A5CEC001DE331 /* FruokIOiOS */;
 			targetProxy = 2B9409C61E6A5CEC001DE331 /* PBXContainerItemProxy */;
-		};
-		2B9409F61E6A5ECC001DE331 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2B9409EA1E6A5ECC001DE331 /* FruokIO macOS */;
-			targetProxy = 2B9409F51E6A5ECC001DE331 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2B29C2261E6B8E2B00E7C365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "FruokIO macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.zheref.FruokIO-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B29C2271E6B8E2B00E7C365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "FruokIO macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.zheref.FruokIO-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2B29C2291E6B8E2B00E7C365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				INFOPLIST_FILE = "FruokIO macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.zheref.FruokIO-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B29C22A1E6B8E2B00E7C365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				INFOPLIST_FILE = "FruokIO macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.zheref.FruokIO-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		2B9409CD1E6A5CEC001DE331 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -526,71 +605,25 @@
 			};
 			name = Release;
 		};
-		2B9409FD1E6A5ECC001DE331 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = AQUE4FE98B;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "FruokIO macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.zheref.FruokIO-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		2B9409FE1E6A5ECC001DE331 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = AQUE4FE98B;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "FruokIO macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.zheref.FruokIO-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		2B940A001E6A5ECC001DE331 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = AQUE4FE98B;
-				INFOPLIST_FILE = "FruokIO macOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.zheref.FruokIO-macOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		2B940A011E6A5ECC001DE331 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = AQUE4FE98B;
-				INFOPLIST_FILE = "FruokIO macOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.zheref.FruokIO-macOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B29C2251E6B8E2B00E7C365 /* Build configuration list for PBXNativeTarget "FruokIOmacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B29C2261E6B8E2B00E7C365 /* Debug */,
+				2B29C2271E6B8E2B00E7C365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B29C2281E6B8E2B00E7C365 /* Build configuration list for PBXNativeTarget "FruokIOmacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B29C2291E6B8E2B00E7C365 /* Debug */,
+				2B29C22A1E6B8E2B00E7C365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		2B9409B51E6A5CEC001DE331 /* Build configuration list for PBXProject "FruokIO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -600,7 +633,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B9409CF1E6A5CEC001DE331 /* Build configuration list for PBXNativeTarget "FruokIO" */ = {
+		2B9409CF1E6A5CEC001DE331 /* Build configuration list for PBXNativeTarget "FruokIOiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B9409D01E6A5CEC001DE331 /* Debug */,
@@ -609,7 +642,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B9409D21E6A5CEC001DE331 /* Build configuration list for PBXNativeTarget "FruokIOTests" */ = {
+		2B9409D21E6A5CEC001DE331 /* Build configuration list for PBXNativeTarget "FruokIOiOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B9409D31E6A5CEC001DE331 /* Debug */,
@@ -617,22 +650,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		2B9409FC1E6A5ECC001DE331 /* Build configuration list for PBXNativeTarget "FruokIO macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B9409FD1E6A5ECC001DE331 /* Debug */,
-				2B9409FE1E6A5ECC001DE331 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		2B9409FF1E6A5ECC001DE331 /* Build configuration list for PBXNativeTarget "FruokIO macOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B940A001E6A5ECC001DE331 /* Debug */,
-				2B940A011E6A5ECC001DE331 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

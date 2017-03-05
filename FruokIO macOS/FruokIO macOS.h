@@ -2,11 +2,11 @@
 //  FruokIO macOS.h
 //  FruokIO macOS
 //
-//  Created by Sergio Daniel L. García on 3/3/17.
+//  Created by Sergio Daniel L. García on 3/4/17.
 //  Copyright © 2017 Sergio Daniel L. García. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Cocoa/Cocoa.h>
 
 //! Project version number for FruokIO macOS.
 FOUNDATION_EXPORT double FruokIO_macOSVersionNumber;
