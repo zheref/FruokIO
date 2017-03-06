@@ -37,23 +37,16 @@ class FruokIOmacOSTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func writeTest() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let document = Document(withContent: xmldocument,
-                                andUrl: URL(fileURLWithPath: "/Users/zheref/test-project"))
-        document.save() {
+                                andUrl: URL(fileURLWithPath: "/Users/zheref/test-project2"))
+        document.saveAsync() { (error: Error?) in
             // do something
         }
         
         XCTAssert(true)
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
     }
     
 }
