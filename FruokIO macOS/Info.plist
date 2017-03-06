@@ -20,7 +20,9 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2017 Sergio Daniel L. García. All rights reserved.</string>
+	<key>FileExtension</key>
+	<string>fruok</string>
 	<key>NSPrincipalClass</key>
-	<string></string>
+	<string>Document</string>
 </dict>
 </plist>

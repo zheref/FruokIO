@@ -7,13 +7,17 @@
 //
 
 import XCTest
-@testable import FruokIO_macOS
+@testable import FruokIOmacOS
 
-class FruokIO_macOSTests: XCTestCase {
+class FruokIOmacOSTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+    }
+    
+    func writeFileWithAnimal() {
+        
     }
     
     override func tearDown() {
