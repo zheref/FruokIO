@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2B9409EA1E6A5ECC001DE331"
+               BlueprintIdentifier = "2B29C2131E6B8E2B00E7C365"
                BuildableName = "FruokIOmacOS.framework"
                BlueprintName = "FruokIOmacOS"
                ReferencedContainer = "container:FruokIO.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2B9409F21E6A5ECC001DE331"
+               BlueprintIdentifier = "2B29C21B1E6B8E2B00E7C365"
                BuildableName = "FruokIOmacOSTests.xctest"
                BlueprintName = "FruokIOmacOSTests"
                ReferencedContainer = "container:FruokIO.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2B9409EA1E6A5ECC001DE331"
+            BlueprintIdentifier = "2B29C2131E6B8E2B00E7C365"
             BuildableName = "FruokIOmacOS.framework"
             BlueprintName = "FruokIOmacOS"
             ReferencedContainer = "container:FruokIO.xcodeproj">
@@ -64,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2B9409EA1E6A5ECC001DE331"
+            BlueprintIdentifier = "2B29C2131E6B8E2B00E7C365"
             BuildableName = "FruokIOmacOS.framework"
             BlueprintName = "FruokIOmacOS"
             ReferencedContainer = "container:FruokIO.xcodeproj">
@@ -82,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2B9409EA1E6A5ECC001DE331"
+            BlueprintIdentifier = "2B29C2131E6B8E2B00E7C365"
             BuildableName = "FruokIOmacOS.framework"
             BlueprintName = "FruokIOmacOS"
             ReferencedContainer = "container:FruokIO.xcodeproj">
