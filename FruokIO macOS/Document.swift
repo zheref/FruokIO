@@ -98,13 +98,12 @@ public class Document : NSDocument {
     
     // MARK: - CUSTOM OPERATIONS
     
-    public func save(completionHandler: @escaping (Error?) -> Void) {
+    public func saveAsync(completionHandler: @escaping (Error?) -> Void) {
         guard let url = fileURL, let type = fileType else {
             save(self)
             return
         }
         
-        print("normal save")
         save(to: url, ofType: type, for: .autosaveInPlaceOperation,
              completionHandler: completionHandler)
     }
