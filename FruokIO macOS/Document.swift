@@ -18,11 +18,11 @@ public class Document : NSDocument {
     
     // MARK: - PROPERTIES
     
-    var content: [String: Any]
+    var content: AEXMLDocument
     
     // MARK: - INITIALIZERS
     
-    convenience init(withContent content: [String: Any], andUrl url: URL) {
+    convenience init(withContent content: AEXMLDocument, andUrl url: URL) {
         self.init()
         
         let propertyList = PropertyList(withFilename: K.InfoPLName)
@@ -38,20 +38,22 @@ public class Document : NSDocument {
     }
     
     override init() {
-        self.content = [String: Any]()
+        self.content = AEXMLDocument()
         super.init()
     }
+    
+    // MARK: - NSDOCUMENT OVERRIDES
     
     public override class func autosavesInPlace() -> Bool {
         return true
     }
     
-//    override func makeWindowControllers() {
-//        // Returns the Storyboard that contains your Document window.
+    public override func makeWindowControllers() {
+        // Returns the Storyboard that contains your Document window.
 //        let storyboard = NSStoryboard(name: "Main", bundle: nil)
 //        let windowController = storyboard.instantiateController(withIdentifier: "Document Window Controller") as! NSWindowController
 //        self.addWindowController(windowController)
-//    }
+    }
     
     
     public override func data(ofType typeName: String) throws -> Data {
