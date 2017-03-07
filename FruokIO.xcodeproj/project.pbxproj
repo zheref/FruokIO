@@ -27,6 +27,8 @@
 		2B4B23331E6CEF5700523CEF /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B23311E6CEF5700523CEF /* K.swift */; };
 		2B4B23341E6CEF5700523CEF /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B23311E6CEF5700523CEF /* K.swift */; };
 		2B4B23351E6CEF5700523CEF /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B23311E6CEF5700523CEF /* K.swift */; };
+		2B4B23361E6D13E000523CEF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B23291E6CB58000523CEF /* README.md */; };
+		2B4B23371E6D13E100523CEF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B23291E6CB58000523CEF /* README.md */; };
 		2B9409C51E6A5CEC001DE331 /* FruokIOiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9409BB1E6A5CEC001DE331 /* FruokIOiOS.framework */; };
 		2B9409CA1E6A5CEC001DE331 /* FruokIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9409C91E6A5CEC001DE331 /* FruokIOTests.swift */; };
 		2B9409CC1E6A5CEC001DE331 /* FruokIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9409BE1E6A5CEC001DE331 /* FruokIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -598,6 +600,7 @@
 			files = (
 				2B4B23321E6CEF5700523CEF /* K.swift in Sources */,
 				2B4B232D1E6CBC5800523CEF /* PropertyList.swift in Sources */,
+				2B4B23371E6D13E100523CEF /* README.md in Sources */,
 				2B4B231F1E6C868A00523CEF /* Writer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -608,6 +611,7 @@
 			files = (
 				2B9409CA1E6A5CEC001DE331 /* FruokIOTests.swift in Sources */,
 				2B4B23331E6CEF5700523CEF /* K.swift in Sources */,
+				2B4B23361E6D13E000523CEF /* README.md in Sources */,
 				2B4B23201E6C868A00523CEF /* Writer.swift in Sources */,
 				2B4B232E1E6CBC5800523CEF /* PropertyList.swift in Sources */,
 			);

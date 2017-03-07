@@ -14,7 +14,7 @@ public class Document : NSDocument {
     
     // MARK: - SUBTYPES
     
-    public typealias DocumentWindowMakerOperation = (Document) -> Void
+    public typealias DocumentWindowMakerOperation = (Document) -> NSWindowController
     
     // MARK: - CONSTANTS
     
@@ -23,16 +23,21 @@ public class Document : NSDocument {
     // MARK: - PROPERTIES
     
     var content: AEXMLDocument
-    var windowMakerOperation: DocumentWindowMakerOperation?
+    var windowMakerOperation: DocumentWindowMakerOperation
     
     // MARK: - INITIALIZERS
     
     convenience init(withStringUrl stringUrl: String) {
         let url = URL(fileURLWithPath: stringUrl)
-        self.init(withContent: AEXMLDocument(), andUrl: url)
+        
+        self.init(withContent: AEXMLDocument(), url: url) { (document) in
+            return NSWindowController()
+        }
     }
     
-    convenience init(withContent content: AEXMLDocument, andUrl url: URL) {
+    convenience init(withContent content: AEXMLDocument,
+                     url: URL,
+                     windowMaker: DocumentWindowMakerOperation) {
         self.init()
         
         let propertyList = PropertyList(withFilename: K.InfoPLName)
@@ -49,6 +54,11 @@ public class Document : NSDocument {
     
     override init() {
         self.content = AEXMLDocument()
+        
+        self.windowMakerOperation = { (document) in
+            return NSWindowController()
+        }
+        
         super.init()
     }
     
@@ -64,7 +74,7 @@ public class Document : NSDocument {
 //        let windowController = storyboard.instantiateController(withIdentifier: "Document Window Controller") as! NSWindowController
 //        self.addWindowController(windowController)
         
-        windowMakerOperation?(self)
+        addWindowController(windowMakerOperation(self))
     }
     
     public override func data(ofType typeName: String) throws -> Data {
@@ -98,13 +108,21 @@ public class Document : NSDocument {
     
     // MARK: - CUSTOM OPERATIONS
     
-    public func saveAsync(completionHandler: @escaping (Error?) -> Void) {
+    public var mainWindowController: NSWindowController? {
+        return self[0]
+    }
+    
+    public subscript(index: Int) -> NSWindowController? {
+        return windowControllers[index]
+    }
+    
+    public func persist(completionHandler: @escaping (Error?) -> Void) {
         guard let url = fileURL, let type = fileType else {
             save(self)
             return
         }
         
-        save(to: url, ofType: type, for: .autosaveInPlaceOperation,
+        save(to: url, ofType: type, for: .saveOperation,
              completionHandler: completionHandler)
     }
     

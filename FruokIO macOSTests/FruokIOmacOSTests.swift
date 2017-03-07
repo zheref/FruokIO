@@ -14,39 +14,75 @@ import AEXML
 
 class FruokIOmacOSTests: XCTestCase {
     
+    // MARK: - CONSTANTS
+    
+    private static let UrlString = "/Users/zheref/test-project"
+    
+    // MARK: - PROPERTIES
+    
+    var document: Document?
     var xmldocument = AEXMLDocument()
+    
+    // MARK: - UI PROPERTIES
+    
+    var window: NSWindowController?
+    
+    
+    // MARK: - SETUP METHODS
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-        setupDocumentWithProject()
-    }
-    
-    func setupDocumentWithProject() {
+        
         let attributes = ["xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
                           "xmlns:xsd": "http://www.w3.org/2001/XMLSchema"]
+        
         let project = xmldocument.addChild(name: "frk:project", attributes: attributes)
+        
         project.addChild(name: "frk:freelance", value: "Sergio Daniel Lozano Garcia",
                          attributes: ["frk:title": "Software Engineer"])
+        
         project.addChild(name: "frk:client", value: "Universidad de Ibague",
                          attributes: ["frk:socialid": "988717254-2"])
+        
+        document = Document(withContent: xmldocument,
+                            url: URL(fileURLWithPath: FruokIOmacOSTests.UrlString))
+        { (document) in
+            return NSWindowController()
+        }
+        
+        document?.makeWindowControllers()
+        window = document?.mainWindowController
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        // Put teardown code here. This method is called after the invocation of each test method 
+        // in the class.
         super.tearDown()
     }
     
-    func writeTest() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let document = Document(withContent: xmldocument,
-                                andUrl: URL(fileURLWithPath: "/Users/zheref/test-project2"))
-        document.saveAsync() { (error: Error?) in
-            // do something
+    // MARK: - TEST CASES
+    
+    func testDocumentCreation() {
+        XCTAssertNotNil(document)
+    }
+    
+    func testWindowController() {
+        XCTAssertNotNil(window)
+    }
+    
+    /// Test of writing a document with the Document created class
+    func testWrite() {
+        var existence: Bool = false
+        let semaphore = DispatchSemaphore(value: 0)
+        
+        document?.persist() { (error: Error?) in
+            existence = FileManager.default.fileExists(atPath: FruokIOmacOSTests.UrlString)
+            semaphore.signal()
         }
         
-        XCTAssert(true)
+        _ = semaphore.wait(timeout: .distantFuture)
+        
+        XCTAssert(existence)
     }
     
 }
