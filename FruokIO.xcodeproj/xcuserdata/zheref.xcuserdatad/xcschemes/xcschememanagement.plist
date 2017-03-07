@@ -14,10 +14,15 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>FruokIO macOS UI Tests Example.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>FruokIO macOS UI Tests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>2</integer>
 		</dict>
 		<key>FruokIO macOS.xcscheme</key>
 		<dict>
@@ -58,6 +63,11 @@
 			<true/>
 		</dict>
 		<key>2B9409F21E6A5ECC001DE331</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2BA7B1AE1E6EFF57009B4323</key>
 		<dict>
 			<key>primary</key>
 			<true/>

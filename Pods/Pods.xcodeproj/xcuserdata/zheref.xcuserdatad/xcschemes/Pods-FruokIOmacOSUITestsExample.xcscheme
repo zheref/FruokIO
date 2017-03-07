@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '669CA46DF4523EC81B60F895E60FBF73'
-               BlueprintName = 'AEXML-iOS'
+               BlueprintIdentifier = '837875E48C50C7DCE56881546C529F6B'
+               BlueprintName = 'Pods-FruokIOmacOSUITestsExample'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'AEXML-iOS.framework'>
+               BuildableName = 'Pods-FruokIOmacOSUITestsExample.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

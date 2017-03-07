@@ -7,34 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00A45BF7511D961D6F02F893CCCB5009 /* Pods-FruokIOmacOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0F7E48A7D0BE4119A683DE09B9883D /* Pods-FruokIOmacOSTests-dummy.m */; };
-		01C245E406612936CBB107855165BE13 /* Pods-FruokIOiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 110D52B978D39FABC5A579138CFFB069 /* Pods-FruokIOiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00A45BF7511D961D6F02F893CCCB5009 /* Pods-FruokIOmacOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCCF843F0D14F9241563B17BBCE02F1 /* Pods-FruokIOmacOSTests-dummy.m */; };
+		01C245E406612936CBB107855165BE13 /* Pods-FruokIOiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F8DDF4F3FA548C590E9315BADA3C3D /* Pods-FruokIOiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		024F38556A6E2DF07C086E4CB6931A2A /* AEXML-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17607665AECF3EDEEF3D6505F58DA663 /* AEXML-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16619BAD7B32091E24BB8E3C70460359 /* Pods-FruokIOiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E61DCAE604E8589915A65BBE5F3553 /* Pods-FruokIOiOS-dummy.m */; };
+		16619BAD7B32091E24BB8E3C70460359 /* Pods-FruokIOiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C586F625E00D7FBCDF7C6FFFABA69F6 /* Pods-FruokIOiOS-dummy.m */; };
 		220E07770E1B04261A4F32116C87BC98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EEDD58EC35A4E9347CB06714F7040C /* Foundation.framework */; };
 		25870A6620A432A04283513E9051ECF8 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534D785D0DB668A607C8486188E968B /* Element.swift */; };
 		2A8CF537130123073EF0ACF9417D4E98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EEDD58EC35A4E9347CB06714F7040C /* Foundation.framework */; };
-		2D8CD1E0C37F0774AE578C966098039B /* Pods-FruokIOmacOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C20DAC2759884119EFED29A3404D73D7 /* Pods-FruokIOmacOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		340544E27FA6A1832CE23D33E4586045 /* Pods-FruokIOiOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD783FDC54D8BFA930C814CBB729BB7 /* Pods-FruokIOiOSTests-dummy.m */; };
-		3DABE6A686C1CC14ACE5ACC0AEDA80B3 /* Pods-FruokIOmacOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E767128826D4790E590AF59126DC9807 /* Pods-FruokIOmacOS-dummy.m */; };
+		2D8CD1E0C37F0774AE578C966098039B /* Pods-FruokIOmacOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27292143997505DD17D8C37FBA42C27F /* Pods-FruokIOmacOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		340544E27FA6A1832CE23D33E4586045 /* Pods-FruokIOiOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10855DDBAFF829B28451A38937F39CF5 /* Pods-FruokIOiOSTests-dummy.m */; };
+		3DABE6A686C1CC14ACE5ACC0AEDA80B3 /* Pods-FruokIOmacOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB683D6086B01974B450A5D6322E6684 /* Pods-FruokIOmacOS-dummy.m */; };
 		47BD738932B0F6DFF58C1115456681FA /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C80BDC6FAF36A64D8B734E7DDEAE8 /* Error.swift */; };
 		506B16F4C2CC383B44527E90EFD31FD9 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534D785D0DB668A607C8486188E968B /* Element.swift */; };
 		5EFB0D479E29A46D9A9BDC621E8544CC /* AEXML-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB996C547C3F8C27C7C4BD64800F7A7F /* AEXML-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		601B65B53C3FB6466DBCE8BF3CD541F9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDAA23DDA8E082FC77E38FA01601C8F /* Cocoa.framework */; };
-		67423CD9A14240B09BD1997317FF9001 /* Pods-FruokIOmacOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1F7F56C1E3B32E5FF23B93AC2AC3D4A /* Pods-FruokIOmacOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67423CD9A14240B09BD1997317FF9001 /* Pods-FruokIOmacOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8657C2A0E290B22F12B644A309DDF747 /* Pods-FruokIOmacOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		675AC00046B35CA22DD50D4D121468B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDAA23DDA8E082FC77E38FA01601C8F /* Cocoa.framework */; };
+		7B12D26ABB78DB51684D6247D0277F36 /* Pods-FruokIOmacOSUITestsExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFD2414637AA19CDFBE33324DCBE538 /* Pods-FruokIOmacOSUITestsExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91BFBA46CA5782100CB098A484086AB4 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7034489328AEE6B1A34930C3A8305904 /* Parser.swift */; };
-		95F31290B2F167766C78FFA86E679034 /* Pods-FruokIOmacOSUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F12C8F061BA4F6396BF780CD4588156A /* Pods-FruokIOmacOSUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95F31290B2F167766C78FFA86E679034 /* Pods-FruokIOmacOSUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F649840D92BA6E204532F5A12ECD2786 /* Pods-FruokIOmacOSUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99DB9CBF47BE7E37909166D8810E0465 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDAA23DDA8E082FC77E38FA01601C8F /* Cocoa.framework */; };
-		9BDD5CE046A964A339FEEC781BDD78F8 /* Pods-FruokIOmacOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FE89EDACA5155E82A69B0A116C1995 /* Pods-FruokIOmacOSUITests-dummy.m */; };
+		9BDD5CE046A964A339FEEC781BDD78F8 /* Pods-FruokIOmacOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C43D2B32D0CE11B5529EAC92A8695E26 /* Pods-FruokIOmacOSUITests-dummy.m */; };
 		9E7FF0E1D34D3B278F4018F5C4E4EA87 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7034489328AEE6B1A34930C3A8305904 /* Parser.swift */; };
 		9EF344060F35D3ED515D82FBE0317D52 /* AEXML-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3581FAAAD9FAD23CCF7E1B7AC0D496E2 /* AEXML-iOS-dummy.m */; };
 		A6245072123398E1B686D096C79B84CA /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14E5F1A80BE6EB51363F13CF51247F /* Options.swift */; };
 		A856F083E8F8230DF39272E1FB213558 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA547B6096A3FAD85C64E7803BF113D /* Document.swift */; };
 		BC68FFD77C19CC6C09D2D7EF248344F6 /* AEXML-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E274285FEC961467DFFECDDE2C5C6C /* AEXML-OSX-dummy.m */; };
 		C129BD2CC56B82C9AD750F58A958F8C6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDAA23DDA8E082FC77E38FA01601C8F /* Cocoa.framework */; };
+		C825FDCFBEF9E381977D08FE769FCF33 /* Pods-FruokIOmacOSUITestsExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B2C9D92EBBCD68A4714DA4B59E1E9 /* Pods-FruokIOmacOSUITestsExample-dummy.m */; };
 		CA56E25281C157E14606919418F2FFF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EEDD58EC35A4E9347CB06714F7040C /* Foundation.framework */; };
-		CCB63FB3807FEAD90F91752669C96B6D /* Pods-FruokIOiOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3EEC5C9F58A5EF3C9DB69DAE110562 /* Pods-FruokIOiOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB63FB3807FEAD90F91752669C96B6D /* Pods-FruokIOiOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0997C3D82F73835F9DC061AE06D1E5 /* Pods-FruokIOiOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD363539DFB925B44A3DA72B43C29A26 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDAA23DDA8E082FC77E38FA01601C8F /* Cocoa.framework */; };
 		E9F9BB7078A1D043637E479DD5DA6BF5 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA547B6096A3FAD85C64E7803BF113D /* Document.swift */; };
 		EF7D97B251E79BD8A77C3C4976C37985 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C80BDC6FAF36A64D8B734E7DDEAE8 /* Error.swift */; };
 		F55E77DFD77EC8EE90C66B627A744051 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14E5F1A80BE6EB51363F13CF51247F /* Options.swift */; };
@@ -55,6 +58,13 @@
 			remoteGlobalIDString = 669CA46DF4523EC81B60F895E60FBF73;
 			remoteInfo = "AEXML-iOS";
 		};
+		9DBDDA485D2C583E7210892CDB2AD8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CCB393CAEBAB83636087A960BB3DC9D;
+			remoteInfo = "AEXML-OSX";
+		};
 		AF040A807E93E2CA76AD5981A5E9502B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -73,80 +83,91 @@
 
 /* Begin PBXFileReference section */
 		03910EE870E58ED0AEBF62FAD71BDCD9 /* AEXML-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AEXML-OSX.xcconfig"; sourceTree = "<group>"; };
-		0800C8BA4A45C5D4E6DD2E3C22E5CE1F /* Pods-FruokIOmacOSUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FruokIOmacOSUITests.modulemap"; sourceTree = "<group>"; };
-		0AD850810DA133D7520C017EFF6CF298 /* Pods-FruokIOmacOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOmacOS-resources.sh"; sourceTree = "<group>"; };
-		0B429A60236A17CC3F8AABA0655CD2AB /* Pods-FruokIOmacOSUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOmacOSUITests-resources.sh"; sourceTree = "<group>"; };
-		110D52B978D39FABC5A579138CFFB069 /* Pods-FruokIOiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FruokIOiOS-umbrella.h"; sourceTree = "<group>"; };
-		1464133F9A44F85A5460A27D4B1DB67F /* Pods-FruokIOiOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FruokIOiOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		167D0BB4CCE1F03C7F734DFB30436610 /* AEXML-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "AEXML-iOS.modulemap"; path = "../AEXML-iOS/AEXML-iOS.modulemap"; sourceTree = "<group>"; };
-		16B3DC5257145636EA6BE39A98CC11A8 /* Pods-FruokIOmacOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FruokIOmacOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0426A8F6A9BEEB19BBC30D301F54F9D4 /* Pods-FruokIOiOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FruokIOiOSTests.modulemap"; sourceTree = "<group>"; };
+		061C018084575650B3DE6A0F4C6D65C6 /* Pods-FruokIOmacOSUITestsExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FruokIOmacOSUITestsExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C586F625E00D7FBCDF7C6FFFABA69F6 /* Pods-FruokIOiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FruokIOiOS-dummy.m"; sourceTree = "<group>"; };
+		0F0CB32709921B15B0A66847165B619F /* Pods-FruokIOiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FruokIOiOS.modulemap"; sourceTree = "<group>"; };
+		10855DDBAFF829B28451A38937F39CF5 /* Pods-FruokIOiOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FruokIOiOSTests-dummy.m"; sourceTree = "<group>"; };
+		167D0BB4CCE1F03C7F734DFB30436610 /* AEXML-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "AEXML-iOS.modulemap"; path = "../AEXML-iOS/AEXML-iOS.modulemap"; sourceTree = "<group>"; };
+		16AD12D4728F0601C68247AD01522C82 /* Pods-FruokIOiOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FruokIOiOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		17607665AECF3EDEEF3D6505F58DA663 /* AEXML-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AEXML-iOS-umbrella.h"; path = "../AEXML-iOS/AEXML-iOS-umbrella.h"; sourceTree = "<group>"; };
-		1938AB5AB49CD2A62A575C737A6284DE /* Pods-FruokIOiOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FruokIOiOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		23CA887C5B0E1E12AE8899616388DBC9 /* Pods-FruokIOmacOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FruokIOmacOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19CB348EAB2FEC2D2E997A25591E8FFA /* Pods-FruokIOmacOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FruokIOmacOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		1AFB70A09F1206C0BFE0BA856686A19B /* Pods_FruokIOiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FruokIOiOSTests.framework; path = "Pods-FruokIOiOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2150A65BEABBCA1F3DD54556E1C95D61 /* Pods-FruokIOmacOSUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOmacOSUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2339B68B4E3957E1D64F128C1523A12D /* Pods-FruokIOmacOSUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FruokIOmacOSUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2622F99E1B56F31EAAA214E7154FB0D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27292143997505DD17D8C37FBA42C27F /* Pods-FruokIOmacOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FruokIOmacOSTests-umbrella.h"; sourceTree = "<group>"; };
+		288C7B51646E3D22F46D2E3D5C8C0B12 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AEXML.framework; path = "AEXML-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4C80BDC6FAF36A64D8B734E7DDEAE8 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
-		2ED03521C313D14828A900694AC06CEC /* Pods_FruokIOmacOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruokIOmacOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F3EEC5C9F58A5EF3C9DB69DAE110562 /* Pods-FruokIOiOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FruokIOiOSTests-umbrella.h"; sourceTree = "<group>"; };
-		2FFD62BEE9A74C5DBEC6ECB55A2D2B6E /* Pods-FruokIOmacOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FruokIOmacOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		3161FA546EFBE9024CBFA079E3205D2C /* Pods-FruokIOiOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOiOSTests-resources.sh"; sourceTree = "<group>"; };
-		32561A42ED7ADF066FFDB0993C76DBBB /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE2DA41521691CD83693AC388E62E1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3005F5F4845FDCD798FC63781FEDBA98 /* Pods-FruokIOiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31F5E59A6439202EC387E98DFADC8E27 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AEXML.framework; path = "AEXML-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3581FAAAD9FAD23CCF7E1B7AC0D496E2 /* AEXML-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AEXML-iOS-dummy.m"; path = "../AEXML-iOS/AEXML-iOS-dummy.m"; sourceTree = "<group>"; };
-		39A5EE8DDEF8C6E9F5C8A7AF1ECD998D /* Pods-FruokIOiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOiOS.release.xcconfig"; sourceTree = "<group>"; };
-		44710D44EC4A7F22AB66D0725F8E71FE /* Pods_FruokIOmacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruokIOmacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CBA42D8271EA541911B9963644D9ACC /* Pods-FruokIOmacOSUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FruokIOmacOSUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4E0FB3347BD3288F2CBC748F841CB622 /* Pods-FruokIOmacOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FruokIOmacOS.modulemap"; sourceTree = "<group>"; };
-		520A5BA49FBE3801B3F49B081DD337A7 /* Pods_FruokIOiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruokIOiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55D846ADCE67ADAB34DFE01E9A0A7B75 /* Pods_FruokIOiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruokIOiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C0B473ECEEAD26FC9CD348A810BE85D /* Pods_FruokIOmacOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruokIOmacOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		62CECA042B609C211825D75A768A45DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64E61DCAE604E8589915A65BBE5F3553 /* Pods-FruokIOiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FruokIOiOS-dummy.m"; sourceTree = "<group>"; };
+		41CED3E87A557AFF57B33996610915DA /* Pods-FruokIOmacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOmacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4C20AE70979501474433F64C0A49E217 /* Pods-FruokIOmacOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FruokIOmacOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59164CA12844BF472EEEE4F01C930826 /* Pods-FruokIOmacOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FruokIOmacOS.modulemap"; sourceTree = "<group>"; };
+		5EA736EA9DF2BE4BD10B2B5D0C7AB3C3 /* Pods-FruokIOmacOSUITestsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOmacOSUITestsExample.release.xcconfig"; sourceTree = "<group>"; };
+		601559455D6DCFA28DE679DCD3224E68 /* Pods-FruokIOmacOSUITestsExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FruokIOmacOSUITestsExample.modulemap"; sourceTree = "<group>"; };
+		637DC9E931D851CBADB8EC099CF2DFF5 /* Pods-FruokIOmacOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOmacOS-resources.sh"; sourceTree = "<group>"; };
 		6534D785D0DB668A607C8486188E968B /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/Element.swift; sourceTree = "<group>"; };
 		65EEDD58EC35A4E9347CB06714F7040C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6E61DACE5EAC7E170D74486E59887D16 /* Pods-FruokIOmacOSUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOmacOSUITests-frameworks.sh"; sourceTree = "<group>"; };
+		667415618E499934EA9D783279DE94F3 /* Pods-FruokIOiOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FruokIOiOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B063F1990AA16A4C241D2690A59092C /* Pods-FruokIOmacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOmacOS.release.xcconfig"; sourceTree = "<group>"; };
+		6BBAF212A99A94C7F071149A20A682C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CBFF4B9F38BA2DD8886D3F40214DA3E /* Pods_FruokIOmacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FruokIOmacOS.framework; path = "Pods-FruokIOmacOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EAE8B99BEFBF64E4C8EB7BBD97248A0 /* Pods-FruokIOmacOSUITestsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOmacOSUITestsExample.debug.xcconfig"; sourceTree = "<group>"; };
 		7034489328AEE6B1A34930C3A8305904 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser.swift; sourceTree = "<group>"; };
-		70FE89EDACA5155E82A69B0A116C1995 /* Pods-FruokIOmacOSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FruokIOmacOSUITests-dummy.m"; sourceTree = "<group>"; };
-		718A94F2013A85C68EB92C84FF7775DA /* Pods-FruokIOmacOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOmacOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		754D995F5F2DB29843052D0B253F3243 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76E8CA6437CC7E491D227132FEC1323A /* Pods-FruokIOmacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOmacOS.release.xcconfig"; sourceTree = "<group>"; };
-		7FD783FDC54D8BFA930C814CBB729BB7 /* Pods-FruokIOiOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FruokIOiOSTests-dummy.m"; sourceTree = "<group>"; };
-		80652523FCB5C41B7C8E3344E44C4DFB /* Pods-FruokIOiOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FruokIOiOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		776B2C9D92EBBCD68A4714DA4B59E1E9 /* Pods-FruokIOmacOSUITestsExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FruokIOmacOSUITestsExample-dummy.m"; sourceTree = "<group>"; };
+		78C5F2FC0B30644B0233A6ADE0991600 /* Pods-FruokIOiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		79A3AAE66464B6E56357992E0FC7A095 /* Pods-FruokIOiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOiOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		80E274285FEC961467DFFECDDE2C5C6C /* AEXML-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEXML-OSX-dummy.m"; sourceTree = "<group>"; };
-		869DA026270D643EDD8C0DAD6FB16A66 /* Pods-FruokIOmacOSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FruokIOmacOSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		885F8E5D962DE9FB2871E5E43F46A552 /* Pods-FruokIOmacOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOmacOSTests-frameworks.sh"; sourceTree = "<group>"; };
-		89722E753FFDE85F893455715419E9F6 /* Pods-FruokIOmacOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOmacOSTests-resources.sh"; sourceTree = "<group>"; };
-		89F125A5DB24DEE37B8BC056ADB61BFF /* Pods-FruokIOmacOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOmacOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		833D0CCED9353F0E874CF34621F9734E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8657C2A0E290B22F12B644A309DDF747 /* Pods-FruokIOmacOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FruokIOmacOS-umbrella.h"; sourceTree = "<group>"; };
 		8B14E5F1A80BE6EB51363F13CF51247F /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Sources/Options.swift; sourceTree = "<group>"; };
-		8FD1A4E50F0BD545DCA4B50FB321DDAD /* Pods-FruokIOiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOiOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		901FFDC84AD569C1C64D9257263777D6 /* Pods-FruokIOiOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOiOSTests-frameworks.sh"; sourceTree = "<group>"; };
-		90740147AF42E92194403F15EECF35BA /* Pods-FruokIOmacOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOmacOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		90BBA1860EA66AD5E07F47ECC4906343 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		910BE4C589125AF764F6BF82B126FC34 /* Pods-FruokIOiOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOiOS-resources.sh"; sourceTree = "<group>"; };
 		92508395F952E06D580402327A460825 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96DDA91A8AFF89EC4F6F3B9C9FA5053C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9827E7B593D2A82FDFCF4CA05EC61373 /* Pods-FruokIOmacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOmacOS.debug.xcconfig"; sourceTree = "<group>"; };
-		996DBE80C68A063C00338BA54DBD9B0D /* Pods-FruokIOiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FruokIOiOS.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AA29C0C02463941AC9BC97F40445EB8 /* AEXML-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "AEXML-iOS.xcconfig"; path = "../AEXML-iOS/AEXML-iOS.xcconfig"; sourceTree = "<group>"; };
-		A055DC4099911B4C57BCE40128CB5D8A /* AEXML-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "AEXML-OSX.modulemap"; sourceTree = "<group>"; };
-		AA077C5A5167F831BC9E2F1A86ED830C /* Pods-FruokIOiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9ABCF7118B22C41F4A621A2FE2F81469 /* Pods-FruokIOmacOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOmacOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A055DC4099911B4C57BCE40128CB5D8A /* AEXML-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "AEXML-OSX.modulemap"; sourceTree = "<group>"; };
+		A7318A86E62E317FC5EBDB8914EEA877 /* Pods-FruokIOmacOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FruokIOmacOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A98FC90EB1B9363C4FD0F70228C8861A /* Pods-FruokIOmacOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOmacOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9EC784CD554C1DB1101F69A5900EBA6 /* Pods-FruokIOmacOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOmacOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0997C3D82F73835F9DC061AE06D1E5 /* Pods-FruokIOiOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FruokIOiOSTests-umbrella.h"; sourceTree = "<group>"; };
 		AAC82C6D0947136AF13E5B4065A6299A /* AEXML-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AEXML-iOS-prefix.pch"; path = "../AEXML-iOS/AEXML-iOS-prefix.pch"; sourceTree = "<group>"; };
 		AB996C547C3F8C27C7C4BD64800F7A7F /* AEXML-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-OSX-umbrella.h"; sourceTree = "<group>"; };
+		ACFD2414637AA19CDFBE33324DCBE538 /* Pods-FruokIOmacOSUITestsExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FruokIOmacOSUITestsExample-umbrella.h"; sourceTree = "<group>"; };
+		AD0267BFFC2F4D819F7F5741C2D60E23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD39E8C5E641F9B16A9A150674CCF1C1 /* Pods-FruokIOiOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOiOSTests-frameworks.sh"; sourceTree = "<group>"; };
 		AEA547B6096A3FAD85C64E7803BF113D /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/Document.swift; sourceTree = "<group>"; };
-		AF1C1BA6F450DC5CD61351AB93E52755 /* Pods-FruokIOmacOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FruokIOmacOSTests.modulemap"; sourceTree = "<group>"; };
+		B2241B031E566F2857B66DBAA0E5A36E /* Pods-FruokIOmacOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FruokIOmacOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B303D7C14B97C239D53C16F0FE3DF71D /* Pods_FruokIOmacOSUITestsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FruokIOmacOSUITestsExample.framework; path = "Pods-FruokIOmacOSUITestsExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41B6CA89DBEE62438582A2636DAC630 /* Pods-FruokIOmacOSUITestsExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOmacOSUITestsExample-resources.sh"; sourceTree = "<group>"; };
+		B633A41A02839955DFD1E03ADA4FBB16 /* Pods-FruokIOmacOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOmacOSTests-resources.sh"; sourceTree = "<group>"; };
+		B93C7B7A491083DAFA5349D37C890585 /* Pods-FruokIOmacOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FruokIOmacOSTests.modulemap"; sourceTree = "<group>"; };
 		B9FE58EB3B55F3FD0F751D9FAB59FF42 /* AEXML-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-OSX-prefix.pch"; sourceTree = "<group>"; };
-		BB21A5A1A0A6FADF1DE4BBCE75AA92A1 /* Pods-FruokIOmacOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FruokIOmacOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C1F7F56C1E3B32E5FF23B93AC2AC3D4A /* Pods-FruokIOmacOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FruokIOmacOS-umbrella.h"; sourceTree = "<group>"; };
-		C20DAC2759884119EFED29A3404D73D7 /* Pods-FruokIOmacOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FruokIOmacOSTests-umbrella.h"; sourceTree = "<group>"; };
-		C34252F32E54EFEAE8024C51F5147128 /* Pods-FruokIOmacOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOmacOSUITests.release.xcconfig"; sourceTree = "<group>"; };
-		C4E92DDBF33ACDD00DCEC4140C14B40C /* Pods-FruokIOiOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FruokIOiOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		C176279DB2ADC5F65B9A785BED391E87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43D2B32D0CE11B5529EAC92A8695E26 /* Pods-FruokIOmacOSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FruokIOmacOSUITests-dummy.m"; sourceTree = "<group>"; };
+		C6B43D01794E7693C90F2A48C0A3B62A /* Pods-FruokIOmacOSUITestsExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FruokIOmacOSUITestsExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C833B2B0B64FA62A38EDF2AF7C0D297A /* Pods-FruokIOmacOSUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FruokIOmacOSUITests.modulemap"; sourceTree = "<group>"; };
+		CAA175F5174EBAEBD8EA96A82C7EA248 /* Pods-FruokIOiOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOiOS-resources.sh"; sourceTree = "<group>"; };
+		CB683D6086B01974B450A5D6322E6684 /* Pods-FruokIOmacOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FruokIOmacOS-dummy.m"; sourceTree = "<group>"; };
+		CCCCF843F0D14F9241563B17BBCE02F1 /* Pods-FruokIOmacOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FruokIOmacOSTests-dummy.m"; sourceTree = "<group>"; };
 		CDDAA23DDA8E082FC77E38FA01601C8F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		D97B2CE390B9B21B113C3D6C2E061465 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E767128826D4790E590AF59126DC9807 /* Pods-FruokIOmacOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FruokIOmacOS-dummy.m"; sourceTree = "<group>"; };
+		D168D174426AB8205ED8516279B27C34 /* Pods-FruokIOmacOSUITestsExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOmacOSUITestsExample-frameworks.sh"; sourceTree = "<group>"; };
+		D827AC4FF1FFD227D3209B6AD5F91A2D /* Pods-FruokIOiOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FruokIOiOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8410FCEB6B98731293DDFE86D0CA7B0 /* Pods-FruokIOmacOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOmacOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		DC978152C2BA702B9E3BC5E1FDC527AA /* Pods-FruokIOmacOSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FruokIOmacOSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2828724481BFB254524816790BEE727 /* Pods-FruokIOiOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FruokIOiOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3684468128B93003345626F4B9ABA85 /* Pods_FruokIOmacOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FruokIOmacOSUITests.framework; path = "Pods-FruokIOmacOSUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B48DEC6297A2B392EE883154E4C63E /* Pods_FruokIOiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FruokIOiOS.framework; path = "Pods-FruokIOiOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F8DDF4F3FA548C590E9315BADA3C3D /* Pods-FruokIOiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FruokIOiOS-umbrella.h"; sourceTree = "<group>"; };
 		E950D7F4397F999060F4361FC4D38745 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../AEXML-iOS/Info.plist"; sourceTree = "<group>"; };
-		EF0F7E48A7D0BE4119A683DE09B9883D /* Pods-FruokIOmacOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FruokIOmacOSTests-dummy.m"; sourceTree = "<group>"; };
-		F12C8F061BA4F6396BF780CD4588156A /* Pods-FruokIOmacOSUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FruokIOmacOSUITests-umbrella.h"; sourceTree = "<group>"; };
-		F5E0127ED137553A06B9F8A75C6243E6 /* Pods-FruokIOiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F6F8EA9E7CCCADCB54BEB8B43FEA6B59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7EF22BD872F815C3D83B40A7A9B527E /* Pods-FruokIOiOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FruokIOiOSTests.modulemap"; sourceTree = "<group>"; };
+		F4721997B0F830AB9E1FA3E8FD5F5159 /* Pods-FruokIOiOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOiOSTests-resources.sh"; sourceTree = "<group>"; };
+		F649840D92BA6E204532F5A12ECD2786 /* Pods-FruokIOmacOSUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FruokIOmacOSUITests-umbrella.h"; sourceTree = "<group>"; };
+		F72A536D67D6C675FA9F3B6842C9B5D2 /* Pods-FruokIOiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOiOS.release.xcconfig"; sourceTree = "<group>"; };
+		F94EDAB345821E8CF2AA3F2093870DEA /* Pods-FruokIOmacOSUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FruokIOmacOSUITests-resources.sh"; sourceTree = "<group>"; };
+		FD7169BC7085ED2072CF613A8B5583B9 /* Pods_FruokIOmacOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FruokIOmacOSTests.framework; path = "Pods-FruokIOmacOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8E1068512C19CA918A72627D47CF15 /* Pods-FruokIOmacOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FruokIOmacOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +176,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				99DB9CBF47BE7E37909166D8810E0465 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504CBB78FCCF44FE302AE66559E03DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD363539DFB925B44A3DA72B43C29A26 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,18 +238,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12477271FD5D690159DD0B0716CADC81 /* Products */ = {
+		02CC79C6429BD3EA78499AFB3F264246 /* Pods-FruokIOmacOSUITests */ = {
 			isa = PBXGroup;
 			children = (
-				32561A42ED7ADF066FFDB0993C76DBBB /* AEXML.framework */,
-				754D995F5F2DB29843052D0B253F3243 /* AEXML.framework */,
-				55D846ADCE67ADAB34DFE01E9A0A7B75 /* Pods_FruokIOiOS.framework */,
-				520A5BA49FBE3801B3F49B081DD337A7 /* Pods_FruokIOiOSTests.framework */,
-				44710D44EC4A7F22AB66D0725F8E71FE /* Pods_FruokIOmacOS.framework */,
-				2ED03521C313D14828A900694AC06CEC /* Pods_FruokIOmacOSTests.framework */,
-				5C0B473ECEEAD26FC9CD348A810BE85D /* Pods_FruokIOmacOSUITests.framework */,
+				2622F99E1B56F31EAAA214E7154FB0D2 /* Info.plist */,
+				C833B2B0B64FA62A38EDF2AF7C0D297A /* Pods-FruokIOmacOSUITests.modulemap */,
+				DC978152C2BA702B9E3BC5E1FDC527AA /* Pods-FruokIOmacOSUITests-acknowledgements.markdown */,
+				2339B68B4E3957E1D64F128C1523A12D /* Pods-FruokIOmacOSUITests-acknowledgements.plist */,
+				C43D2B32D0CE11B5529EAC92A8695E26 /* Pods-FruokIOmacOSUITests-dummy.m */,
+				2150A65BEABBCA1F3DD54556E1C95D61 /* Pods-FruokIOmacOSUITests-frameworks.sh */,
+				F94EDAB345821E8CF2AA3F2093870DEA /* Pods-FruokIOmacOSUITests-resources.sh */,
+				F649840D92BA6E204532F5A12ECD2786 /* Pods-FruokIOmacOSUITests-umbrella.h */,
+				9ABCF7118B22C41F4A621A2FE2F81469 /* Pods-FruokIOmacOSUITests.debug.xcconfig */,
+				A98FC90EB1B9363C4FD0F70228C8861A /* Pods-FruokIOmacOSUITests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-FruokIOmacOSUITests";
+			path = "Target Support Files/Pods-FruokIOmacOSUITests";
+			sourceTree = "<group>";
+		};
+		07C7CD484F639156A24414F98E6B876D /* Pods-FruokIOiOS */ = {
+			isa = PBXGroup;
+			children = (
+				6BBAF212A99A94C7F071149A20A682C9 /* Info.plist */,
+				0F0CB32709921B15B0A66847165B619F /* Pods-FruokIOiOS.modulemap */,
+				16AD12D4728F0601C68247AD01522C82 /* Pods-FruokIOiOS-acknowledgements.markdown */,
+				667415618E499934EA9D783279DE94F3 /* Pods-FruokIOiOS-acknowledgements.plist */,
+				0C586F625E00D7FBCDF7C6FFFABA69F6 /* Pods-FruokIOiOS-dummy.m */,
+				CAA175F5174EBAEBD8EA96A82C7EA248 /* Pods-FruokIOiOS-resources.sh */,
+				E4F8DDF4F3FA548C590E9315BADA3C3D /* Pods-FruokIOiOS-umbrella.h */,
+				78C5F2FC0B30644B0233A6ADE0991600 /* Pods-FruokIOiOS.debug.xcconfig */,
+				F72A536D67D6C675FA9F3B6842C9B5D2 /* Pods-FruokIOiOS.release.xcconfig */,
+			);
+			name = "Pods-FruokIOiOS";
+			path = "Target Support Files/Pods-FruokIOiOS";
 			sourceTree = "<group>";
 		};
 		2EDFAB15A7E74F864EB353FCB5A57006 /* OS X */ = {
@@ -231,19 +281,19 @@
 			name = "OS X";
 			sourceTree = "<group>";
 		};
-		30264A76E5B29DEAB14A784EB34F0E31 /* Pods-FruokIOiOSTests */ = {
+		346B6A236C75F90C353F4294D01E54D2 /* Pods-FruokIOiOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				F6F8EA9E7CCCADCB54BEB8B43FEA6B59 /* Info.plist */,
-				F7EF22BD872F815C3D83B40A7A9B527E /* Pods-FruokIOiOSTests.modulemap */,
-				80652523FCB5C41B7C8E3344E44C4DFB /* Pods-FruokIOiOSTests-acknowledgements.markdown */,
-				1464133F9A44F85A5460A27D4B1DB67F /* Pods-FruokIOiOSTests-acknowledgements.plist */,
-				7FD783FDC54D8BFA930C814CBB729BB7 /* Pods-FruokIOiOSTests-dummy.m */,
-				901FFDC84AD569C1C64D9257263777D6 /* Pods-FruokIOiOSTests-frameworks.sh */,
-				3161FA546EFBE9024CBFA079E3205D2C /* Pods-FruokIOiOSTests-resources.sh */,
-				2F3EEC5C9F58A5EF3C9DB69DAE110562 /* Pods-FruokIOiOSTests-umbrella.h */,
-				F5E0127ED137553A06B9F8A75C6243E6 /* Pods-FruokIOiOSTests.debug.xcconfig */,
-				8FD1A4E50F0BD545DCA4B50FB321DDAD /* Pods-FruokIOiOSTests.release.xcconfig */,
+				2BE2DA41521691CD83693AC388E62E1E /* Info.plist */,
+				0426A8F6A9BEEB19BBC30D301F54F9D4 /* Pods-FruokIOiOSTests.modulemap */,
+				E2828724481BFB254524816790BEE727 /* Pods-FruokIOiOSTests-acknowledgements.markdown */,
+				D827AC4FF1FFD227D3209B6AD5F91A2D /* Pods-FruokIOiOSTests-acknowledgements.plist */,
+				10855DDBAFF829B28451A38937F39CF5 /* Pods-FruokIOiOSTests-dummy.m */,
+				AD39E8C5E641F9B16A9A150674CCF1C1 /* Pods-FruokIOiOSTests-frameworks.sh */,
+				F4721997B0F830AB9E1FA3E8FD5F5159 /* Pods-FruokIOiOSTests-resources.sh */,
+				AA0997C3D82F73835F9DC061AE06D1E5 /* Pods-FruokIOiOSTests-umbrella.h */,
+				3005F5F4845FDCD798FC63781FEDBA98 /* Pods-FruokIOiOSTests.debug.xcconfig */,
+				79A3AAE66464B6E56357992E0FC7A095 /* Pods-FruokIOiOSTests.release.xcconfig */,
 			);
 			name = "Pods-FruokIOiOSTests";
 			path = "Target Support Files/Pods-FruokIOiOSTests";
@@ -258,33 +308,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		48A2E8BF74FB2C502458F2A685F6894F /* Pods-FruokIOmacOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0267BFFC2F4D819F7F5741C2D60E23 /* Info.plist */,
+				B93C7B7A491083DAFA5349D37C890585 /* Pods-FruokIOmacOSTests.modulemap */,
+				4C20AE70979501474433F64C0A49E217 /* Pods-FruokIOmacOSTests-acknowledgements.markdown */,
+				B2241B031E566F2857B66DBAA0E5A36E /* Pods-FruokIOmacOSTests-acknowledgements.plist */,
+				CCCCF843F0D14F9241563B17BBCE02F1 /* Pods-FruokIOmacOSTests-dummy.m */,
+				D8410FCEB6B98731293DDFE86D0CA7B0 /* Pods-FruokIOmacOSTests-frameworks.sh */,
+				B633A41A02839955DFD1E03ADA4FBB16 /* Pods-FruokIOmacOSTests-resources.sh */,
+				27292143997505DD17D8C37FBA42C27F /* Pods-FruokIOmacOSTests-umbrella.h */,
+				A9EC784CD554C1DB1101F69A5900EBA6 /* Pods-FruokIOmacOSTests.debug.xcconfig */,
+				FD8E1068512C19CA918A72627D47CF15 /* Pods-FruokIOmacOSTests.release.xcconfig */,
+			);
+			name = "Pods-FruokIOmacOSTests";
+			path = "Target Support Files/Pods-FruokIOmacOSTests";
+			sourceTree = "<group>";
+		};
+		61187BF4DD1D49ECB03A05BF56F84DB3 /* Pods-FruokIOmacOSUITestsExample */ = {
+			isa = PBXGroup;
+			children = (
+				C176279DB2ADC5F65B9A785BED391E87 /* Info.plist */,
+				601559455D6DCFA28DE679DCD3224E68 /* Pods-FruokIOmacOSUITestsExample.modulemap */,
+				C6B43D01794E7693C90F2A48C0A3B62A /* Pods-FruokIOmacOSUITestsExample-acknowledgements.markdown */,
+				061C018084575650B3DE6A0F4C6D65C6 /* Pods-FruokIOmacOSUITestsExample-acknowledgements.plist */,
+				776B2C9D92EBBCD68A4714DA4B59E1E9 /* Pods-FruokIOmacOSUITestsExample-dummy.m */,
+				D168D174426AB8205ED8516279B27C34 /* Pods-FruokIOmacOSUITestsExample-frameworks.sh */,
+				B41B6CA89DBEE62438582A2636DAC630 /* Pods-FruokIOmacOSUITestsExample-resources.sh */,
+				ACFD2414637AA19CDFBE33324DCBE538 /* Pods-FruokIOmacOSUITestsExample-umbrella.h */,
+				6EAE8B99BEFBF64E4C8EB7BBD97248A0 /* Pods-FruokIOmacOSUITestsExample.debug.xcconfig */,
+				5EA736EA9DF2BE4BD10B2B5D0C7AB3C3 /* Pods-FruokIOmacOSUITestsExample.release.xcconfig */,
+			);
+			name = "Pods-FruokIOmacOSUITestsExample";
+			path = "Target Support Files/Pods-FruokIOmacOSUITestsExample";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */,
 				8A80BA96A9D32501AB683A4FE1C44887 /* Pods */,
-				12477271FD5D690159DD0B0716CADC81 /* Products */,
-				B3265056AFDD4A4293ED90AABA54FA1A /* Targets Support Files */,
+				D155FF873C4E27A9A3E2C6F94A1F990C /* Products */,
+				BBDF2A76AA3E6AD19DA9175C53C2DAEA /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7FC71DE0551962F220762FF81B9F6A45 /* Pods-FruokIOmacOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				62CECA042B609C211825D75A768A45DD /* Info.plist */,
-				0800C8BA4A45C5D4E6DD2E3C22E5CE1F /* Pods-FruokIOmacOSUITests.modulemap */,
-				869DA026270D643EDD8C0DAD6FB16A66 /* Pods-FruokIOmacOSUITests-acknowledgements.markdown */,
-				4CBA42D8271EA541911B9963644D9ACC /* Pods-FruokIOmacOSUITests-acknowledgements.plist */,
-				70FE89EDACA5155E82A69B0A116C1995 /* Pods-FruokIOmacOSUITests-dummy.m */,
-				6E61DACE5EAC7E170D74486E59887D16 /* Pods-FruokIOmacOSUITests-frameworks.sh */,
-				0B429A60236A17CC3F8AABA0655CD2AB /* Pods-FruokIOmacOSUITests-resources.sh */,
-				F12C8F061BA4F6396BF780CD4588156A /* Pods-FruokIOmacOSUITests-umbrella.h */,
-				718A94F2013A85C68EB92C84FF7775DA /* Pods-FruokIOmacOSUITests.debug.xcconfig */,
-				C34252F32E54EFEAE8024C51F5147128 /* Pods-FruokIOmacOSUITests.release.xcconfig */,
-			);
-			name = "Pods-FruokIOmacOSUITests";
-			path = "Target Support Files/Pods-FruokIOmacOSUITests";
 			sourceTree = "<group>";
 		};
 		885D61A39954561AA04AC840A6E6387E /* Support Files */ = {
@@ -323,68 +391,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9D110FD5581AFA71093F603910046D53 /* Pods-FruokIOmacOS */ = {
+		BBDF2A76AA3E6AD19DA9175C53C2DAEA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				90BBA1860EA66AD5E07F47ECC4906343 /* Info.plist */,
-				4E0FB3347BD3288F2CBC748F841CB622 /* Pods-FruokIOmacOS.modulemap */,
-				23CA887C5B0E1E12AE8899616388DBC9 /* Pods-FruokIOmacOS-acknowledgements.markdown */,
-				2FFD62BEE9A74C5DBEC6ECB55A2D2B6E /* Pods-FruokIOmacOS-acknowledgements.plist */,
-				E767128826D4790E590AF59126DC9807 /* Pods-FruokIOmacOS-dummy.m */,
-				0AD850810DA133D7520C017EFF6CF298 /* Pods-FruokIOmacOS-resources.sh */,
-				C1F7F56C1E3B32E5FF23B93AC2AC3D4A /* Pods-FruokIOmacOS-umbrella.h */,
-				9827E7B593D2A82FDFCF4CA05EC61373 /* Pods-FruokIOmacOS.debug.xcconfig */,
-				76E8CA6437CC7E491D227132FEC1323A /* Pods-FruokIOmacOS.release.xcconfig */,
-			);
-			name = "Pods-FruokIOmacOS";
-			path = "Target Support Files/Pods-FruokIOmacOS";
-			sourceTree = "<group>";
-		};
-		B3265056AFDD4A4293ED90AABA54FA1A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BF33CC43DF511D0DAEABD5E6080EB753 /* Pods-FruokIOiOS */,
-				30264A76E5B29DEAB14A784EB34F0E31 /* Pods-FruokIOiOSTests */,
-				9D110FD5581AFA71093F603910046D53 /* Pods-FruokIOmacOS */,
-				C4B7BDB77F325676AA2F6F6DE7BD8C84 /* Pods-FruokIOmacOSTests */,
-				7FC71DE0551962F220762FF81B9F6A45 /* Pods-FruokIOmacOSUITests */,
+				07C7CD484F639156A24414F98E6B876D /* Pods-FruokIOiOS */,
+				346B6A236C75F90C353F4294D01E54D2 /* Pods-FruokIOiOSTests */,
+				C838C89DFA056D1FFD9B9603F7D4536F /* Pods-FruokIOmacOS */,
+				48A2E8BF74FB2C502458F2A685F6894F /* Pods-FruokIOmacOSTests */,
+				02CC79C6429BD3EA78499AFB3F264246 /* Pods-FruokIOmacOSUITests */,
+				61187BF4DD1D49ECB03A05BF56F84DB3 /* Pods-FruokIOmacOSUITestsExample */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BF33CC43DF511D0DAEABD5E6080EB753 /* Pods-FruokIOiOS */ = {
+		C838C89DFA056D1FFD9B9603F7D4536F /* Pods-FruokIOmacOS */ = {
 			isa = PBXGroup;
 			children = (
-				96DDA91A8AFF89EC4F6F3B9C9FA5053C /* Info.plist */,
-				996DBE80C68A063C00338BA54DBD9B0D /* Pods-FruokIOiOS.modulemap */,
-				1938AB5AB49CD2A62A575C737A6284DE /* Pods-FruokIOiOS-acknowledgements.markdown */,
-				C4E92DDBF33ACDD00DCEC4140C14B40C /* Pods-FruokIOiOS-acknowledgements.plist */,
-				64E61DCAE604E8589915A65BBE5F3553 /* Pods-FruokIOiOS-dummy.m */,
-				910BE4C589125AF764F6BF82B126FC34 /* Pods-FruokIOiOS-resources.sh */,
-				110D52B978D39FABC5A579138CFFB069 /* Pods-FruokIOiOS-umbrella.h */,
-				AA077C5A5167F831BC9E2F1A86ED830C /* Pods-FruokIOiOS.debug.xcconfig */,
-				39A5EE8DDEF8C6E9F5C8A7AF1ECD998D /* Pods-FruokIOiOS.release.xcconfig */,
+				833D0CCED9353F0E874CF34621F9734E /* Info.plist */,
+				59164CA12844BF472EEEE4F01C930826 /* Pods-FruokIOmacOS.modulemap */,
+				A7318A86E62E317FC5EBDB8914EEA877 /* Pods-FruokIOmacOS-acknowledgements.markdown */,
+				19CB348EAB2FEC2D2E997A25591E8FFA /* Pods-FruokIOmacOS-acknowledgements.plist */,
+				CB683D6086B01974B450A5D6322E6684 /* Pods-FruokIOmacOS-dummy.m */,
+				637DC9E931D851CBADB8EC099CF2DFF5 /* Pods-FruokIOmacOS-resources.sh */,
+				8657C2A0E290B22F12B644A309DDF747 /* Pods-FruokIOmacOS-umbrella.h */,
+				41CED3E87A557AFF57B33996610915DA /* Pods-FruokIOmacOS.debug.xcconfig */,
+				6B063F1990AA16A4C241D2690A59092C /* Pods-FruokIOmacOS.release.xcconfig */,
 			);
-			name = "Pods-FruokIOiOS";
-			path = "Target Support Files/Pods-FruokIOiOS";
-			sourceTree = "<group>";
-		};
-		C4B7BDB77F325676AA2F6F6DE7BD8C84 /* Pods-FruokIOmacOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				D97B2CE390B9B21B113C3D6C2E061465 /* Info.plist */,
-				AF1C1BA6F450DC5CD61351AB93E52755 /* Pods-FruokIOmacOSTests.modulemap */,
-				BB21A5A1A0A6FADF1DE4BBCE75AA92A1 /* Pods-FruokIOmacOSTests-acknowledgements.markdown */,
-				16B3DC5257145636EA6BE39A98CC11A8 /* Pods-FruokIOmacOSTests-acknowledgements.plist */,
-				EF0F7E48A7D0BE4119A683DE09B9883D /* Pods-FruokIOmacOSTests-dummy.m */,
-				885F8E5D962DE9FB2871E5E43F46A552 /* Pods-FruokIOmacOSTests-frameworks.sh */,
-				89722E753FFDE85F893455715419E9F6 /* Pods-FruokIOmacOSTests-resources.sh */,
-				C20DAC2759884119EFED29A3404D73D7 /* Pods-FruokIOmacOSTests-umbrella.h */,
-				90740147AF42E92194403F15EECF35BA /* Pods-FruokIOmacOSTests.debug.xcconfig */,
-				89F125A5DB24DEE37B8BC056ADB61BFF /* Pods-FruokIOmacOSTests.release.xcconfig */,
-			);
-			name = "Pods-FruokIOmacOSTests";
-			path = "Target Support Files/Pods-FruokIOmacOSTests";
+			name = "Pods-FruokIOmacOS";
+			path = "Target Support Files/Pods-FruokIOmacOS";
 			sourceTree = "<group>";
 		};
 		CDB1DAB5BDDC736715A093E895D8F0F1 /* AEXML */ = {
@@ -397,7 +431,23 @@
 				7034489328AEE6B1A34930C3A8305904 /* Parser.swift */,
 				885D61A39954561AA04AC840A6E6387E /* Support Files */,
 			);
+			name = AEXML;
 			path = AEXML;
+			sourceTree = "<group>";
+		};
+		D155FF873C4E27A9A3E2C6F94A1F990C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				288C7B51646E3D22F46D2E3D5C8C0B12 /* AEXML.framework */,
+				31F5E59A6439202EC387E98DFADC8E27 /* AEXML.framework */,
+				E4B48DEC6297A2B392EE883154E4C63E /* Pods_FruokIOiOS.framework */,
+				1AFB70A09F1206C0BFE0BA856686A19B /* Pods_FruokIOiOSTests.framework */,
+				6CBFF4B9F38BA2DD8886D3F40214DA3E /* Pods_FruokIOmacOS.framework */,
+				FD7169BC7085ED2072CF613A8B5583B9 /* Pods_FruokIOmacOSTests.framework */,
+				E3684468128B93003345626F4B9ABA85 /* Pods_FruokIOmacOSUITests.framework */,
+				B303D7C14B97C239D53C16F0FE3DF71D /* Pods_FruokIOmacOSUITestsExample.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,6 +458,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D8CD1E0C37F0774AE578C966098039B /* Pods-FruokIOmacOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B537973CB7E7F1FBBE1A667B8292785 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B12D26ABB78DB51684D6247D0277F36 /* Pods-FruokIOmacOSUITestsExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +535,7 @@
 			);
 			name = "Pods-FruokIOmacOS";
 			productName = "Pods-FruokIOmacOS";
-			productReference = 44710D44EC4A7F22AB66D0725F8E71FE /* Pods_FruokIOmacOS.framework */;
+			productReference = 6CBFF4B9F38BA2DD8886D3F40214DA3E /* Pods_FruokIOmacOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		669CA46DF4523EC81B60F895E60FBF73 /* AEXML-iOS */ = {
@@ -494,7 +552,7 @@
 			);
 			name = "AEXML-iOS";
 			productName = "AEXML-iOS";
-			productReference = 754D995F5F2DB29843052D0B253F3243 /* AEXML.framework */;
+			productReference = 31F5E59A6439202EC387E98DFADC8E27 /* AEXML.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6CCB393CAEBAB83636087A960BB3DC9D /* AEXML-OSX */ = {
@@ -511,7 +569,25 @@
 			);
 			name = "AEXML-OSX";
 			productName = "AEXML-OSX";
-			productReference = 32561A42ED7ADF066FFDB0993C76DBBB /* AEXML.framework */;
+			productReference = 288C7B51646E3D22F46D2E3D5C8C0B12 /* AEXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		837875E48C50C7DCE56881546C529F6B /* Pods-FruokIOmacOSUITestsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632814B18F7631731A156696D5BAAE0A /* Build configuration list for PBXNativeTarget "Pods-FruokIOmacOSUITestsExample" */;
+			buildPhases = (
+				AFD64D0D30C700499ABDAFFF3BCC369D /* Sources */,
+				504CBB78FCCF44FE302AE66559E03DFB /* Frameworks */,
+				8B537973CB7E7F1FBBE1A667B8292785 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282D508A2D12F080B87B1FC439DBCECB /* PBXTargetDependency */,
+			);
+			name = "Pods-FruokIOmacOSUITestsExample";
+			productName = "Pods-FruokIOmacOSUITestsExample";
+			productReference = B303D7C14B97C239D53C16F0FE3DF71D /* Pods_FruokIOmacOSUITestsExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9A9E50CE7546F212AB37EFAA19054772 /* Pods-FruokIOiOSTests */ = {
@@ -529,7 +605,7 @@
 			);
 			name = "Pods-FruokIOiOSTests";
 			productName = "Pods-FruokIOiOSTests";
-			productReference = 520A5BA49FBE3801B3F49B081DD337A7 /* Pods_FruokIOiOSTests.framework */;
+			productReference = 1AFB70A09F1206C0BFE0BA856686A19B /* Pods_FruokIOiOSTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BBD61BE5C20044B9BC5C4E79ADFEDCA8 /* Pods-FruokIOiOS */ = {
@@ -547,7 +623,7 @@
 			);
 			name = "Pods-FruokIOiOS";
 			productName = "Pods-FruokIOiOS";
-			productReference = 55D846ADCE67ADAB34DFE01E9A0A7B75 /* Pods_FruokIOiOS.framework */;
+			productReference = E4B48DEC6297A2B392EE883154E4C63E /* Pods_FruokIOiOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DEB9D862DB2B07D62CDDD2574915DEC8 /* Pods-FruokIOmacOSTests */ = {
@@ -565,7 +641,7 @@
 			);
 			name = "Pods-FruokIOmacOSTests";
 			productName = "Pods-FruokIOmacOSTests";
-			productReference = 2ED03521C313D14828A900694AC06CEC /* Pods_FruokIOmacOSTests.framework */;
+			productReference = FD7169BC7085ED2072CF613A8B5583B9 /* Pods_FruokIOmacOSTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FBB4752AEF76E2CAD957C8325BC14AE7 /* Pods-FruokIOmacOSUITests */ = {
@@ -582,7 +658,7 @@
 			);
 			name = "Pods-FruokIOmacOSUITests";
 			productName = "Pods-FruokIOmacOSUITests";
-			productReference = 5C0B473ECEEAD26FC9CD348A810BE85D /* Pods_FruokIOmacOSUITests.framework */;
+			productReference = E3684468128B93003345626F4B9ABA85 /* Pods_FruokIOmacOSUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -602,7 +678,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 12477271FD5D690159DD0B0716CADC81 /* Products */;
+			productRefGroup = D155FF873C4E27A9A3E2C6F94A1F990C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -613,6 +689,7 @@
 				0C4FF016D7182C1E480E1E0640C15705 /* Pods-FruokIOmacOS */,
 				DEB9D862DB2B07D62CDDD2574915DEC8 /* Pods-FruokIOmacOSTests */,
 				FBB4752AEF76E2CAD957C8325BC14AE7 /* Pods-FruokIOmacOSUITests */,
+				837875E48C50C7DCE56881546C529F6B /* Pods-FruokIOmacOSUITestsExample */,
 			);
 		};
 /* End PBXProject section */
@@ -663,6 +740,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AFD64D0D30C700499ABDAFFF3BCC369D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C825FDCFBEF9E381977D08FE769FCF33 /* Pods-FruokIOmacOSUITestsExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C006E8C3854D3D2480F1CF4DB4E93E27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -687,6 +772,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		282D508A2D12F080B87B1FC439DBCECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AEXML-OSX";
+			target = 6CCB393CAEBAB83636087A960BB3DC9D /* AEXML-OSX */;
+			targetProxy = 9DBDDA485D2C583E7210892CDB2AD8AD /* PBXContainerItemProxy */;
+		};
 		48E18C0499D8327E8EB7D82978ACAA33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "AEXML-iOS";
@@ -751,7 +842,7 @@
 		};
 		13FCB4862E75CB0C86AAA4A20CF6D08D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89F125A5DB24DEE37B8BC056ADB61BFF /* Pods-FruokIOmacOSTests.release.xcconfig */;
+			baseConfigurationReference = FD8E1068512C19CA918A72627D47CF15 /* Pods-FruokIOmacOSTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -822,7 +913,7 @@
 		};
 		447F0826C619E3F49D7CAE5857EA2AF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9827E7B593D2A82FDFCF4CA05EC61373 /* Pods-FruokIOmacOS.debug.xcconfig */;
+			baseConfigurationReference = 41CED3E87A557AFF57B33996610915DA /* Pods-FruokIOmacOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -892,7 +983,7 @@
 		};
 		58CD3BF40FD516B91DBDCDCC251E171D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76E8CA6437CC7E491D227132FEC1323A /* Pods-FruokIOmacOS.release.xcconfig */;
+			baseConfigurationReference = 6B063F1990AA16A4C241D2690A59092C /* Pods-FruokIOmacOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -929,7 +1020,7 @@
 		};
 		74CCB26D461D6BAD7A0FE73DE7823A9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FD1A4E50F0BD545DCA4B50FB321DDAD /* Pods-FruokIOiOSTests.release.xcconfig */;
+			baseConfigurationReference = 79A3AAE66464B6E56357992E0FC7A095 /* Pods-FruokIOiOSTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1009,7 +1100,7 @@
 		};
 		795B86D6A68BB79B040EBA4A14B66A09 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39A5EE8DDEF8C6E9F5C8A7AF1ECD998D /* Pods-FruokIOiOS.release.xcconfig */;
+			baseConfigurationReference = F72A536D67D6C675FA9F3B6842C9B5D2 /* Pods-FruokIOiOS.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1044,7 +1135,7 @@
 		};
 		814D924E9426680CE04C252D158F602A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C34252F32E54EFEAE8024C51F5147128 /* Pods-FruokIOmacOSUITests.release.xcconfig */;
+			baseConfigurationReference = A98FC90EB1B9363C4FD0F70228C8861A /* Pods-FruokIOmacOSUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1078,6 +1169,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8E63D55EBEF133A3F1B0B0B5D3789495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EAE8B99BEFBF64E4C8EB7BBD97248A0 /* Pods-FruokIOmacOSUITestsExample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FruokIOmacOSUITestsExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-FruokIOmacOSUITestsExample/Pods-FruokIOmacOSUITestsExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FruokIOmacOSUITestsExample;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		91DCBA778BEA813726973ACAA43F06DB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1114,7 +1243,7 @@
 		};
 		BE3F058A7264B6FF8835955F25BC339C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA077C5A5167F831BC9E2F1A86ED830C /* Pods-FruokIOiOS.debug.xcconfig */;
+			baseConfigurationReference = 78C5F2FC0B30644B0233A6ADE0991600 /* Pods-FruokIOiOS.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1150,7 +1279,7 @@
 		};
 		BE7EC9C1E170ADB67BD694C9AA351B59 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5E0127ED137553A06B9F8A75C6243E6 /* Pods-FruokIOiOSTests.debug.xcconfig */;
+			baseConfigurationReference = 3005F5F4845FDCD798FC63781FEDBA98 /* Pods-FruokIOiOSTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1186,7 +1315,7 @@
 		};
 		C1998BD7E38ADBA37EA13027DD97F7D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90740147AF42E92194403F15EECF35BA /* Pods-FruokIOmacOSTests.debug.xcconfig */;
+			baseConfigurationReference = A9EC784CD554C1DB1101F69A5900EBA6 /* Pods-FruokIOmacOSTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1263,9 +1392,46 @@
 			};
 			name = Release;
 		};
+		E288E3F1737005212F210CAF52296DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA736EA9DF2BE4BD10B2B5D0C7AB3C3 /* Pods-FruokIOmacOSUITestsExample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FruokIOmacOSUITestsExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-FruokIOmacOSUITestsExample/Pods-FruokIOmacOSUITestsExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FruokIOmacOSUITestsExample;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		ED44BA2631EE313D200315B0E9E65AB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 718A94F2013A85C68EB92C84FF7775DA /* Pods-FruokIOmacOSUITests.debug.xcconfig */;
+			baseConfigurationReference = 9ABCF7118B22C41F4A621A2FE2F81469 /* Pods-FruokIOmacOSUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1326,6 +1492,15 @@
 			buildConfigurations = (
 				BE7EC9C1E170ADB67BD694C9AA351B59 /* Debug */,
 				74CCB26D461D6BAD7A0FE73DE7823A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		632814B18F7631731A156696D5BAAE0A /* Build configuration list for PBXNativeTarget "Pods-FruokIOmacOSUITestsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E63D55EBEF133A3F1B0B0B5D3789495 /* Debug */,
+				E288E3F1737005212F210CAF52296DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
