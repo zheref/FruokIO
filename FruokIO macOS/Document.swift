@@ -35,9 +35,9 @@ public class Document : NSDocument {
         }
     }
     
-    convenience init(withContent content: AEXMLDocument,
-                     url: URL,
-                     windowMaker: DocumentWindowMakerOperation) {
+    public convenience init(withContent content: AEXMLDocument,
+                            url: URL,
+                            windowMaker: DocumentWindowMakerOperation) {
         self.init()
         
         let propertyList = PropertyList(withFilename: K.InfoPLName)

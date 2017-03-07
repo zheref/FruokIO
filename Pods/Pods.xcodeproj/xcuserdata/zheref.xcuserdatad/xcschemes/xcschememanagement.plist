@@ -34,6 +34,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-FruokIOmacOSUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -63,6 +68,11 @@
 			<true/>
 		</dict>
 		<key>DEB9D862DB2B07D62CDDD2574915DEC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FBB4752AEF76E2CAD957C8325BC14AE7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

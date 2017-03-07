@@ -1,0 +1,6 @@
+framework module Pods_FruokIOmacOSUITests {
+  umbrella header "Pods-FruokIOmacOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
